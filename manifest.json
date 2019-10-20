@@ -3,12 +3,12 @@
   "name": "ktsyr1 cv ",
   "icons": [
     {
-      "src": "#",
+      "src": "icon.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "#",
+      "src": "icon.png",
       "sizes": "512x512",
       "type": "image/png"
     }
