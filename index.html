@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="theme-color" content="#fff"/>
+    <meta name="theme-color" content="#fff" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>ktsyr1 cv</title>
@@ -11,52 +12,58 @@
     <link rel="apple-touch-icon" href="#">
     <style>
         .application--wrap {
-    -webkit-box-flex: 1;
-    -ms-flex: 1 1 auto;
-    flex: 1 1 auto;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column; 
-    position: relative;
-}
-    div{
-        box-shadow: 0 0 3px -1px black;
-        border-radius: 10px;
-        width: 300px;
-        margin: 0 auto;
-        text-align: center;
-        padding: 10px;
-    } i {
-    margin: 0 0px 0 6px;
-}
-    a {
-        box-shadow: 0 0 3px -1px black;
-        border-radius: 10px;
-        text-decoration: none;
-        color: #000;
-        display: block;
-        width: 100px;
-        padding: 7px;
-        margin: 0 90px 10px  ;
-    }.application--wrap { 
-    background-color: #fff;
-    background-image: url(https://coretabs.net/img/second_layer.d915c7ae.svg),url(https://coretabs.net/img/first_layer.24cd5ddd.svg);
-    background-size: 40%,55%;
-    background-repeat: no-repeat,no-repeat;
-    background-position: 100% 0,100% 0;
-}
+            -webkit-box-flex: 1;
+            -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            position: relative;
+        }
 
+        div {
+            box-shadow: 0 0 3px -1px black;
+            border-radius: 10px;
+            width: 300px;
+            margin: 0 auto;
+            text-align: center;
+            padding: 10px;
+        }
+
+        i {
+            margin: 0 0px 0 6px;
+        }
+
+        a {
+            box-shadow: 0 0 3px -1px black;
+            border-radius: 10px;
+            text-decoration: none;
+            color: #000;
+            display: block;
+            width: 100px;
+            padding: 7px;
+            margin: 0 90px 10px;
+        }
+
+        .application--wrap {
+            background-color: #fff;
+            background-image: url(https://coretabs.net/img/second_layer.d915c7ae.svg), url(https://coretabs.net/img/first_layer.24cd5ddd.svg);
+            background-size: 40%, 55%;
+            background-repeat: no-repeat, no-repeat;
+            background-position: 100% 0, 100% 0;
+        }
     </style>
 </head>
+
 <body>
- <div class="application--wrap"> 
-       <h1 style="
+    <div class="application--wrap">
+        <h1 style="
     margin: 15px 150px 0 0;
 "> قتيبة محمد</h1>
         <p style="
@@ -70,11 +77,26 @@
         <a href="https://www.facebook.com/ktsyr1">فيسبوك
             <i class="fab fa-facebook"></i></a>
         <a href="https://m.me/ktsyr1"> ماسنجر
-        <i class="fab fa-facebook-messenger"></i></a>
+            <i class="fab fa-facebook-messenger"></i></a>
         <a href="mailto:ktsyr1@gmail.com"> الايميل
-        <i class="fas fa-mail-bulk"></i></a>
+            <i class="fas fa-mail-bulk"></i></a>
         <a href="https://wa.me/96170723177"> وتساب
-        <i class="fab fa-whatsapp"></i></a>
+            <i class="fab fa-whatsapp"></i></a>
     </div>
+    <script>
+    if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('/sw.js').then(function(registration) {
+      // Registration was successful
+      console.log('ServiceWorker registration successful with scope: ', registration.scope);
+    }, function(err) {
+      // registration failed :(
+      console.log('ServiceWorker registration failed: ', err);
+    });
+  });
+}
+    </script>
+        
 </body>
+
 </html>
