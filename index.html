@@ -83,18 +83,18 @@
         <a href="https://wa.me/96170723177"> وتساب
             <i class="fab fa-whatsapp"></i></a>
     </div>
-    <script>
-    if ('serviceWorker' in navigator) {
-  window.addEventListener('load', function() {
-    navigator.serviceWorker.register('/sw.js').then(function(registration) {
-      // Registration was successful
-      console.log('ServiceWorker registration successful with scope: ', registration.scope);
-    }, function(err) {
-      // registration failed :(
-      console.log('ServiceWorker registration failed: ', err);
+    <script type="text/JavaScript">
+        if('serviceWorker' in navigator) {
+          navigator.serviceWorker
+                   .register('/sw.js')
+                   .then(function() {});
+        }
+        if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('/service-worker.js')
+          .then((reg) => {  });
     });
-  });
-}
+  }
     </script>
         
 </body>
