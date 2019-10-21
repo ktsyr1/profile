@@ -17,9 +17,9 @@
 <body>
     <div class="application--wrap">
         <div class="A">
-            <h1 style="margin: 15px 150px 0 0;">Qotayba Mohammad</h1>
-            <p style="margin: 15px 100px 0 0px;">Country: Syria Idlib</p>
-            <p style="margin: 15px 50px 15px 0px;">To connect on</p>
+            <h1>Qotayba Mohammad</h1>
+            <p>Country: Syria Idlib</p>
+            <p>To connect on</p>
         </div>
         <div class="B">
             <a href="https://t.me/ktsyr1"> telegram<i class="fab fa-telegram"></i></a>
@@ -43,6 +43,32 @@
           .then((reg) => {  });
     });
   }
+  
+    </script>
+    <script>
+        let deferredPrompt;
+
+        window.addEventListener('beforeinstallprompt', (e) => {
+            // Stash the event so it can be triggered later.
+            deferredPrompt = e;
+            showInstallPromotion();
+        });
+        btnAdd.addEventListener('click', (e) => {
+            // hide our user interface that shows our A2HS button
+            btnAdd.style.display = 'none';
+            // Show the prompt
+            deferredPrompt.prompt();
+            // Wait for the user to respond to the prompt
+            deferredPrompt.userChoice
+                .then((choiceResult) => {
+                    if (choiceResult.outcome === 'accepted') {
+                        console.log('User accepted the A2HS prompt');
+                    } else {
+                        console.log('User dismissed the A2HS prompt');
+                    }
+                    deferredPrompt = null;
+                });
+        });
     </script>
 
 </body>
