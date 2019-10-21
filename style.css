@@ -24,6 +24,10 @@
     background-repeat: no-repeat, no-repeat;
     background-position: 100% 0, 100% 0;
 }
+h1{
+    text-shadow: 0 0 3px -1px black;
+
+}
 i { margin: 0 0px 0 6px;}
 
 a {
