@@ -1,6 +1,13 @@
 {
   "short_name": " ktsyr1 cv",
   "name": "ktsyr1 cv ",
+  "prefer_related_applications": true,
+  "related_applications": [
+    {
+      "platform": "play",
+      "id": "com.google.samples.apps.iosched"
+    }
+  ],
   "icons": [
     {
       "src": "icon.png",
@@ -12,9 +19,10 @@
       "sizes": "512x512",
       "type": "image/png"
     }
-  ],"start_url": ".",
+  ],
+  "start_url": ".",
   "background_color": "#fff",
   "display": "standalone",
   "scope": "/",
   "theme_color": "#fff"
-} 
+}
