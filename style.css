@@ -29,7 +29,10 @@ h1{
 
 }
 i { margin: 0 0px 0 6px;}
-
+img {
+    height: 100px;
+    margin: 0 0 0 -150px;
+}
 a {
     box-shadow: 0 0 3px -1px black;
     border-radius: 10px;
