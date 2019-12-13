@@ -12,12 +12,13 @@ body {
   box-shadow: 0 0px 6px -4px;
 }
 
-.m-auto, section {
+.m-auto {
   margin: 0 auto;
 }
 
 section {
   height: auto;
+  margin: 10px auto;
 }
 
 section .profile {

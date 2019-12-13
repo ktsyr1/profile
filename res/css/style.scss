@@ -17,9 +17,9 @@
 }
 section{
     @extend .b-r ;
-    @extend .sh ;
-    @extend .m-auto ;
+    @extend .sh ; 
     height: auto;
+    margin: 10px auto;
     .profile{
         color: #000;
         .img-bg{
