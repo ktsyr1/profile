@@ -59,6 +59,7 @@ section .profile .img-bg .bg {
   width: 80px;
   height: 80px;
   margin-top: 50px;
+  box-shadow: 0px 0px 20px 0px white;
 }
 
 section .profile .my .icon {
