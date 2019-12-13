@@ -2,9 +2,6 @@
   section {
     width: 96%;
   }
-  section .profile .my ul button {
-    width: 17%;
-  }
 }
 
 @media only screen and (min-width: 600px) {
