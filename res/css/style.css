@@ -106,3 +106,7 @@ section .profile .my ul button:hover {
 section #accordion {
   text-align: right;
 }
+
+.B a {
+  width: 50px;
+}
