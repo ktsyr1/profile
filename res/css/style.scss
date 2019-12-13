@@ -31,7 +31,10 @@ section{
         color: #000;
         .img-bg{
             width: 100%;
-            height: 200px;
+            height: 200px;    
+            padding-top: 10px;
+            background-color: #000;
+            border-radius: 10px 10px 0 0;
             .img{
                 width: 100%;
                 z-index: 2;
@@ -41,6 +44,15 @@ section{
                 height: 200px;
                 background-repeat: no-repeat;
                 background-size: 100% 100%;
+            }
+            .bg{
+                border-radius: 50%; 
+                background-color: #fff;
+                width: 80px;
+                height:  80px;
+                @extend .m-auto ;
+                margin-top: 50px;
+                
             }
         }
         .my{ 
@@ -56,6 +68,7 @@ section{
                     border-radius: 50%;
                     @extend .sh ;
                 }
+                
             }
             h1{
                 margin-right: 150px;
