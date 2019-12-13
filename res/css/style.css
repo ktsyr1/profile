@@ -4,6 +4,15 @@ body {
   margin: 0;
 }
 
+a {
+  text-decoration-line: none;
+  color: #000;
+}
+
+i {
+  padding: 5px;
+}
+
 .b-r, section {
   border-radius: 10px;
 }
