@@ -85,3 +85,7 @@ section .profile .my ul div:hover {
   border-bottom: 1px solid #86bd45;
   background-color: #e8f0e9;
 }
+
+section #accordion {
+  text-align: right;
+}
