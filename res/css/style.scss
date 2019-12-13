@@ -66,22 +66,19 @@ section{
             }
             ul{
                 padding: 0;
-                margin: 0;
-                div {
-                    display: inline-block;
+                margin: 0; 
+                button {
                     padding: 5px;
                     width: 24%;
                     text-align: center;
                     color: #000;
                     border-bottom: 1px solid #ebeaea;
-                    background-color: white;
-                    button{
-                        color: #000;
-                        text-decoration-line: none;
-
-                    }
+                    background-color: white; 
+                    color: #000;
+                    text-decoration-line: none;
+ 
                 }
-                div:hover{
+                button:hover{
                     border-bottom: 1px solid #86bd45;
                     background-color: #e8f0e9;
                 }

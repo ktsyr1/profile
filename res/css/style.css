@@ -75,22 +75,18 @@ section .profile .my ul {
   margin: 0;
 }
 
-section .profile .my ul div {
-  display: inline-block;
+section .profile .my ul button {
   padding: 5px;
   width: 24%;
   text-align: center;
   color: #000;
   border-bottom: 1px solid #ebeaea;
   background-color: white;
-}
-
-section .profile .my ul div button {
   color: #000;
   text-decoration-line: none;
 }
 
-section .profile .my ul div:hover {
+section .profile .my ul button:hover {
   border-bottom: 1px solid #86bd45;
   background-color: #e8f0e9;
 }
