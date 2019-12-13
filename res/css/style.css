@@ -43,6 +43,7 @@ section .profile .img-bg .img {
 section .profile .my .icon {
   margin-top: -50px;
   margin-right: 20px;
+  float: right;
 }
 
 section .profile .my .icon img {
@@ -53,7 +54,10 @@ section .profile .my .icon img {
 
 section .profile .my h1 {
   margin-right: 150px;
-  margin-top: -41px;
+  margin-top: 0px;
+  text-align: center;
+  font-size: 25px;
+  padding: 10px;
 }
 
 section .profile .my ul {
@@ -61,16 +65,22 @@ section .profile .my ul {
   margin: 0;
 }
 
-section .profile .my ul li {
+section .profile .my ul div {
   display: inline-block;
   padding: 10px;
-  width: 20%;
+  width: 24%;
   text-align: center;
   color: #000;
   border-bottom: 1px solid #ebeaea;
+  background-color: white;
 }
 
-section .profile .my ul li:hover {
+section .profile .my ul div button {
+  color: #000;
+  text-decoration-line: none;
+}
+
+section .profile .my ul div:hover {
   border-bottom: 1px solid #86bd45;
   background-color: #e8f0e9;
 }

@@ -6,13 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="res/css/style.css" />
     <link rel="stylesheet" href="res/css/responsive.css" />
+    <link rel="stylesheet" href="res/css/bootstrap.min.css" />
     <title>ktsyr1</title>
   </head>
   <body>
     <section>
       <article class="profile">
         <div class="img-bg">
-                <div class="img"></div>
+          <div class="img"></div>
         </div>
         <div class="my">
           <div class="icon">
@@ -20,17 +21,77 @@
           </div>
           <h1>Qotayba Mohammad</h1>
           <ul>
-              <a href="#"><li>الدراسة</li></a>
-              <a href="#"><li>المهارات</li></a>
-              <a href="#"><li>مشاريع</li></a>
-              <a href="#"><li>حول</li></a>
+                <div class="card-header" id="headingOne">
+                        <h5 class="mb-0">
+                          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                الدراسة
+                          </button>
+                        </h5>
+                      </div>
+                      <div class="card-header" id="headingTwo">
+                            <h5 class="mb-0">
+                              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    المهارات
+                              </button>
+                            </h5>
+                          </div>
+                          <div class="card-header" id="headingThree">
+                                <h5 class="mb-0">
+                                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        مشاريع
+                                  </button>
+                                </h5>
+                              </div>
+                              <div class="card-header" id="headingThree">
+                                    <h5 class="mb-0">
+                                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            حول
+                                      </button>
+                                    </h5>
+                                  </div>
           </ul>
-          <br><br><br><br>
-
         </div>
-
       </article>
-
+      
+      <div id="accordion">
+            <div class=" ">
+             
+          
+              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">
+                        الدراسة
+                </div>
+              </div>
+            </div>
+            <div class=" ">
+              
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body">
+                        المهارات
+                </div>
+              </div>
+            </div>
+            <div class=" ">
+              
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                      <div class="card-body">
+                              مشاريع
+                      </div>
+                    </div>
+                  </div>
+                  <div class=" ">
+              
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                          <div class="card-body">
+                                  حول
+                          </div>
+                        </div>
+                      </div>
+          </div>
     </section>
+
+    <script src="res/js/jquery-3.4.1.slim.min.js"></script>
+    <script src="res/js/bootstrap.min.js"></script>
+    <script src="res/js/popper.min.js"></script>
   </body>
 </html>
