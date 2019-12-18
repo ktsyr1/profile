@@ -13,11 +13,11 @@ i {
   padding: 5px;
 }
 
-.b-r, section {
+.b-r, section, .B li, .B p {
   border-radius: 10px;
 }
 
-.sh, section, section .profile .my, section .profile .my .icon img {
+.sh, section, section .profile .my, section .profile .my .icon img, .B p {
   box-shadow: 0 0px 6px -4px;
 }
 
@@ -108,5 +108,23 @@ section #accordion {
 }
 
 .B a {
+  border: 1px solid #007bff;
   width: 50px;
+  color: #007bff;
+}
+
+.B a i:hover {
+  color: #007bff;
+}
+
+.B li {
+  display: inline-block;
+  border: 1px solid #007bff;
+  padding: 7px;
+  margin: 5px;
+}
+
+.B p {
+  width: 200px;
+  padding: 10px;
 }

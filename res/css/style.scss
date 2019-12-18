@@ -105,6 +105,26 @@ section{
     }
 }
 
-.B a{
-    width: 50px;
+.B {
+    a {
+        border: 1px solid #007bff;
+        width: 50px;
+        color: #007bff;
+        i:hover{
+            color: #007bff;
+        }
+    }
+    li {
+        @extend .b-r ;   
+        display: inline-block;
+        border: 1px solid #007bff;
+        padding:7px;
+        margin: 5px;
+    }
+    p {
+        @extend .b-r ;
+        @extend .sh ;
+        width: 200px;
+        padding: 10px;
+    }
 }
