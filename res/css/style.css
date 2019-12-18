@@ -107,6 +107,12 @@ section #accordion {
   text-align: right;
 }
 
+.B {
+  text-align: center;
+  margin: 0px -40px;
+  width: 100%;
+}
+
 .B a {
   border: 1px solid #007bff;
   width: 50px;
