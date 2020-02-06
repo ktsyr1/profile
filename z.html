@@ -79,42 +79,45 @@
             ftd ="طفال طيني طميي",
             fd = "طفال طميي",
             d = "طمي"
-
-            if(Rm > 0 && Rm <= 45 ,Tmim >= 0 && Tmim <= 40 ,Tinm >= 40 && Tinm <= 100 ){
-                dg.innerHTML = T // طين 
-            }else if(Rm > 45 && Rm <= 65,Tmim >= 0 && Tmim <= 20 ,Tinm >= 35 && Tinm <= 55 ){
-                dg.innerHTML = tr // طين رملي
-            }else if(Rm > 45 && Rm <= 80,Tmim >= 0 && Tmim <= 28 ,Tinm >= 20 && Tinm <= 35 ){
-                dg.innerHTML = ftr // طفال طيني رملي
-            }else if(Rm > 45 && Rm <= 85,Tmim >= 0 && Tmim <= 50 ,Tinm >= 0 && Tinm <= 20 ){
-                dg.innerHTML = fr // طفال  رملي
-            }else if(Rm > 70 && Rm <= 90,Tmim >= 0 && Tmim <= 30 ,Tinm >= 0 && Tinm <= 15 ){
-                dg.innerHTML = fr // رمل طفالي
-            }else if(Rm > 90 && Rm <= 100,Tmim >= 0 && Tmim <= 10 ,Tinm >= 0 && Tinm <= 10 ){
-                dg.innerHTML = ttr // طفال طيني رملي
+            if (Tinm >= 35){
+                if(Rm <= 45 ){
+                    dg.innerHTML = T
+                }
+                
+            }else if(Tmim >= 40) {
+                
+                dg.innerHTML = d
             }
-            
-            
-    
-    
-            
-    
-            else if(Rm > 22 && Rm <= 52,Tmim >= 28 && Tmim <= 50 ,Tinm >= 5 && Tinm <= 28 ){
-                dg.innerHTML = f  //   طفال
-            }else if(Rm > 20 && Rm <= 45,Tmim >= 15 && Tmim <= 51 ,Tinm >= 28 && Tinm <= 40 ){
-                dg.innerHTML = ft  //   طفال طيني
-            }else if(Rm > 0 && 20 <= 100,Tmim >= 40 && Tmim <= 60 ,Tinm >= 40 && Tinm <= 60 ){
-                dg.innerHTML = td  //   طين طميي
-            }else if(Rm > 0 && Rm <= 20,Tmim >= 40 && Tmim <= 72 ,Tinm >= 28 && Tinm <= 40 ){
-                dg.innerHTML = ftd  //   طفال طيني طميي
-            }else if(Rm > 0 && Rm <= 50,Tmim >= 50 && Tmim <= 88 ,Tinm >= 0 && Tinm <= 28 ){
-                dg.innerHTML = fd  //   طفال طميي
-            }else if(Rm > 0 && Rm <= 20,Tmim >= 80 && Tmim <= 100 ,Tinm >= 0 && Tinm <= 12 ){
-                dg.innerHTML = d   //   طمي
-            }
-            else{
-                dg.innerHTML = "no data"
-            }
+            // if(Rm > 0 && Rm <= 45 ,Tmim >= 0 && Tmim <= 40 ,Tinm >= 40 && Tinm <= 100 ){
+            //     dg.innerHTML = T // طين 
+            // }else if(Rm > 45 && Rm <= 65,Tmim >= 0 && Tmim <= 20 ,Tinm >= 35 && Tinm <= 55 ){
+            //     dg.innerHTML = tr // طين رملي
+            // }else if(Rm > 45 && Rm <= 80,Tmim >= 0 && Tmim <= 28 ,Tinm >= 20 && Tinm <= 35 ){
+            //     dg.innerHTML = ftr // طفال طيني رملي
+            // }else if(Rm > 45 && Rm <= 85,Tmim >= 0 && Tmim <= 50 ,Tinm >= 0 && Tinm <= 20 ){
+            //     dg.innerHTML = fr // طفال  رملي
+            // }else if(Rm > 70 && Rm <= 90,Tmim >= 0 && Tmim <= 30 ,Tinm >= 0 && Tinm <= 15 ){
+            //     dg.innerHTML = fr // رمل طفالي
+            // }else if(Rm > 90 && Rm <= 100,Tmim >= 0 && Tmim <= 10 ,Tinm >= 0 && Tinm <= 10 ){
+            //     dg.innerHTML = ttr // طفال طيني 
+            // }
+             
+            // else if(Rm > 22 && Rm <= 52,Tmim >= 28 && Tmim <= 50 ,Tinm >= 5 && Tinm <= 28 ){
+            //     dg.innerHTML = f  //   طفال
+            // }else if(Rm > 20 && Rm <= 45,Tmim >= 15 && Tmim <= 51 ,Tinm >= 28 && Tinm <= 40 ){
+            //     dg.innerHTML = ft  //   طفال طيني
+            // }else if(Rm > 0 && 20 <= 100,Tmim >= 40 && Tmim <= 60 ,Tinm >= 40 && Tinm <= 60 ){
+            //     dg.innerHTML = td  //   طين طميي
+            // }else if(Rm > 0 && Rm <= 20,Tmim >= 40 && Tmim <= 72 ,Tinm >= 28 && Tinm <= 40 ){
+            //     dg.innerHTML = ftd  //   طفال طيني طميي
+            // }else if(Rm > 0 && Rm <= 50,Tmim >= 50 && Tmim <= 88 ,Tinm >= 0 && Tinm <= 28 ){
+            //     dg.innerHTML = fd  //   طفال طميي
+            // }else if(Rm > 0 && Rm <= 20,Tmim >= 80 && Tmim <= 100 ,Tinm >= 0 && Tinm <= 12 ){
+            //     dg.innerHTML = d   //   طمي
+            // }
+            // else{
+            //     dg.innerHTML = "no data"
+            // }
             
         }    
         // if (Rm = 0 to 30 && tmim = 35 to 60 ){

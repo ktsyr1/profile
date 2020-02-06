@@ -37,7 +37,7 @@ a {
     text-decoration: none;
     color: #000;
     display: inline-block;
-    width: 130px;
+    /* width: 130px; */
     padding: 7px;
     margin: 0 0 10px; 
     text-align: center;
