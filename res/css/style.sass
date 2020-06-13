@@ -2,14 +2,17 @@
 body
     direction: rtl
     padding: 0
-    margin: 0
-    color: #86bd45
-
-button , body , h1  
-     color: #86bd45
+    margin: 0 
+#body_two , #body_three , #body_four
+    display: none
+    transition: display 2s
 i
     padding: 5px
- 
+button 
+    border: 0
+    border-radius: 3px
+    margin-bottom: -5px
+
 // var 
 .b-r
     border-radius: 10px
@@ -50,11 +53,9 @@ section
                 height:  80px
                 @extend .m-auto 
                 margin-top: 50px
-                box-shadow: 0px 0px 20px 0px white
- 
+                box-shadow: 0px 0px 20px 0px white 
         .my
-            @extend .sh 
-
+            @extend .sh  
             .icon
                 margin-top: 30px
                 margin-right: 20px
@@ -64,10 +65,7 @@ section
                     width: 100px
                     height: 100px
                     border-radius: 50%
-                    @extend .sh 
-                
-                
-            
+                    @extend .sh  
             h1
                 margin-right: 150px
                 margin-top: 0px
@@ -119,3 +117,74 @@ section
         @extend .sh 
         width: 200px
         padding: 10px
+.application--wrap 
+    -webkit-box-flex: 1
+    -ms-flex: 1 1 auto
+    flex: 1 1 auto
+    -webkit-backface-visibility: hidden
+    backface-visibility: hidden
+    display: -webkit-box
+    display: -ms-flexbox
+    display: flex
+    -webkit-box-orient: vertical
+    -webkit-box-direction: normal
+    -ms-flex-direction: column
+    flex-direction: column
+    position: relative
+    box-shadow: 0 0 3px -1px black
+    border-radius: 10px
+    width: 400px
+    margin: 0 auto
+    padding: 10px
+    background-color: #fff
+    background-image: url(https://coretabs.net/img/second_layer.d915c7ae.svg), url(https://coretabs.net/img/first_layer.24cd5ddd.svg)
+    background-size: 30%, 40%
+    background-repeat: no-repeat, no-repeat
+    background-position: 100% 0, 100% 0
+
+h1
+    text-shadow: 0px 1px 2px #a5a5a6
+
+
+i  
+    margin: 0 0px 0 6px
+img 
+    height: 100px
+    margin: -87px 0 0 150px 
+
+a 
+    border-radius: 10px
+    text-decoration: none
+    color: #000
+    display: inline-block
+    /* width: 130px */
+    padding: 7px
+    margin: 0 0 10px 
+    text-align: center
+    border: 1px solid #007bff
+
+.A
+    margin: -10px 0 0 0
+    text-align: left
+     
+
+.B
+     text-align: center 
+
+
+@media only screen and (max-width: 600px) 
+    section
+        width: 96%
+@media only screen and (min-width: 600px) 
+    section
+        width: 600px
+@media only screen and (min-width: 768px) 
+    section
+        width: 600px
+@media only screen and (min-width: 992px) 
+    section
+        width: 600px
+
+@media only screen and (min-width: 1200px) 
+    section
+        width: 600px
