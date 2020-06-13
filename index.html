@@ -1,7 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
+<html lang="ar">
+  <head>
     <meta charset="UTF-8">
     <meta name="theme-color" content="#fff" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,75 +15,168 @@
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link rel="manifest" href="manifest.json">
     <link rel="apple-touch-icon" href="#">
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="/icon.png">
-</head>
+    <link rel="shortcut icon" href="/icon.png"> 
+    <link rel="stylesheet" href="res/css/style.css" />
+    <link rel="stylesheet" href="res/css/responsive.css" />
+    <link rel="stylesheet" href="res/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" /> 
 
-<body>
-    <div class="application--wrap">
-        <div class="A">
-            <h1>Qotayba Mohammad</h1>
-            <p>Country: Syria Idlib</p>
-        <p>To connect on</p>
-        </div>
-        <img src="profile.svg" alt="">
-
-        <div class="B">
-            <a href="https://t.me/ktsyr1"> <i class="fab fa-telegram"></i></a>
-            <a href="https://www.facebook.com/ktsyr1"><i class="fab fa-facebook"></i></a>
-            <a href="https://wa.me/96170723177"> <i class="fab fa-whatsapp"></i></a>
-
-            <a href="https://m.me/ktsyr1"> <i class="fab fa-facebook-messenger"></i></a>
-            <a href="mailto:ktsyr1@gmail.com" style="width: 200px;"> ktsyr1@gmail.com<i class="fas fa-mail-bulk"></i></a>
-            
-            <!-- <a href="https://github.com/ktsyr1"> ktsyr1<i class="fab fa-github"></i></a>  --> 
-
-            <!-- <a href="./app"> app<i class="far fa-user-circle"></i></a> -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <body>
+    <section>
+      <article class="profile">
+        <div class="img-bg">
+          <!-- <div class="img"></div> -->
+          <div class="bg">.</div>
 
         </div>
+        <div class="my">
+          <div class="icon">
+            <img src="res/img/icon.jpg" alt="" />
+          </div>
+          <h1>Qotayba Mohammad</h1>
+          <ul> 
+              <button id="headingOne"
+                class="btn btn-link"
+                data-toggle="collapse"
+                data-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                الدراسة
+              </button>
+             
+            <button id="headingTwo" 
+                class="btn btn-link collapsed"
+                data-toggle="collapse"
+                data-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                المهارات
+              </button> 
+            <button id="headingThree" 
+                class="btn btn-link collapsed"
+                data-toggle="collapse"
+                data-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                مشاريع
+              </button> 
+            <button id="heading4" 
+                class="btn btn-link collapsed"
+                data-toggle="collapse"
+                data-target="#collapse4"
+                aria-expanded="false"
+                aria-controls="collapse4"
+              >
+                حول
+              </button> 
+          </ul>
+        </div>
+      </article>
 
+      <div id="accordion"> 
+          <div
+            id="collapseOne"
+            class="collapse show"
+            aria-labelledby="headingOne"
+            data-parent="#accordion"
+          >
+            <div class="card-body">
+              متوقف من الثانوي
+            </div>
+          </div> 
+          <div
+            id="collapseTwo"
+            class="collapse"
+            aria-labelledby="headingTwo"
+            data-parent="#accordion"
+          >
+            <div class="card-body">
+              
+              <ul class="B">
+                <p>web developer</p>
+                 MERN STACK 
+              <hr />
 
-    </div>
+              <p>social media marketing</p> 
+            </div>
+          </div>
+         
+          <div
+            id="collapseThree"
+            class="collapse"
+            aria-labelledby="headingThree"
+            data-parent="#accordion"
+          >
+            <div class="card-body">
+              لا يوجد مشاريع
+            </div>
+          </div> 
+          <div
+            id="collapse4"
+            class="collapse"
+            aria-labelledby="heading4"
+            data-parent="#accordion"
+          >
+            <div class="card-body">
+              <div class="B">
+                <a href="https://t.me/ktsyr1"><i class="fab fa-telegram"></i></a>
+                <a href="https://www.facebook.com/ktsyr1"><i class="fab fa-facebook"></i></a>
+                <a href="https://wa.me/96170723177"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://m.me/ktsyr1"><i class="fab fa-facebook-messenger"></i></a>
+                <a href="mailto:ktsyr1@gmail.com"><i class="fas fa-mail-bulk"></i></a>
+                <a href="https://github.com/ktsyr1"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <script type="text/JavaScript">
-        if('serviceWorker' in navigator) {
-          navigator.serviceWorker
-                   .register('/sw.js')
-                   .then(function() {});
-        }
-        if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-      navigator.serviceWorker.register('/service-worker.js')
-          .then((reg) => {  });
-    });
-  }
-  
-    </script>
-    <script>
-        let deferredPrompt;
+      if('serviceWorker' in navigator) {
+        navigator.serviceWorker
+                 .register('/sw.js')
+                 .then(function() {});
+      }
+      if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/service-worker.js')
+        .then((reg) => {  });
+  });
+}
 
-        window.addEventListener('beforeinstallprompt', (e) => {
-            // Stash the event so it can be triggered later.
-            deferredPrompt = e;
-            showInstallPromotion();
-        });
-        btnAdd.addEventListener('click', (e) => {
-            // hide our user interface that shows our A2HS button
-            btnAdd.style.display = 'none';
-            // Show the prompt
-            deferredPrompt.prompt();
-            // Wait for the user to respond to the prompt
-            deferredPrompt.userChoice
-                .then((choiceResult) => {
-                    if (choiceResult.outcome === 'accepted') {
-                        console.log('User accepted the A2HS prompt');
-                    } else {
-                        console.log('User dismissed the A2HS prompt');
-                    }
-                    deferredPrompt = null;
-                });
-        });
-    </script>
+  </script>
+  <script>
+      let deferredPrompt;
 
-</body>
-
+      window.addEventListener('beforeinstallprompt', (e) => {
+          // Stash the event so it can be triggered later.
+          deferredPrompt = e;
+          showInstallPromotion();
+      });
+      btnAdd.addEventListener('click', (e) => {
+          // hide our user interface that shows our A2HS button
+          btnAdd.style.display = 'none';
+          // Show the prompt
+          deferredPrompt.prompt();
+          // Wait for the user to respond to the prompt
+          deferredPrompt.userChoice
+              .then((choiceResult) => {
+                  if (choiceResult.outcome === 'accepted') {
+                      console.log('User accepted the A2HS prompt');
+                  } else {
+                      console.log('User dismissed the A2HS prompt');
+                  }
+                  deferredPrompt = null;
+              });
+      });
+  </script>
+    <script src="res/js/jquery-3.4.1.slim.min.js"></script>
+    <script src="res/js/bootstrap.min.js"></script>
+    <script src="res/js/popper.min.js"></script>
+  </body>
 </html>
