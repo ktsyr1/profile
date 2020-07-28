@@ -7,7 +7,11 @@ self.addEventListener('install', function (e) {
             return cache.addAll([
                 '/',
                 '/index.html',
-                '/icon.png'
+                '/icon.png',
+                '/res/css/style.min.css',
+                '/res/css/rest.css',
+                '/res/js/min.css',
+
             ]);
         })
     );
