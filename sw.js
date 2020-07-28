@@ -9,8 +9,9 @@ self.addEventListener('install', function (e) {
                 '/index.html',
                 '/icon.png',
                 '/res/css/style.min.css',
+                '/res/css/bootstrap.min.css',
                 '/res/css/rest.css',
-                '/res/js/min.css',
+                '/res/js/min.js',
 
             ]);
         })
