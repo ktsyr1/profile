@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="page-files/img/favicon.ico" type="image/x-icon">
+    $(if refresh-timeout)
+    <meta http-equiv="refresh" content="$(refresh-timeout-secs)">
+    $(endif)
+    <meta http-equiv="refresh" content="300">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="expires" content="-1">
+	<meta charset="windows-1256" />
+    <title>معلومات الإشتراك : KASPER :</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link href="page-files/fonts/notofont.css" rel="stylesheet" />
+    <link href="page-files/css/fontello.css" rel="stylesheet" />
+    <link href="status.css" rel="stylesheet" />
+
+<script language="JavaScript">
+<!--
+$(if advert-pending == 'yes')
+    var popup = '';
+    function focusAdvert() {
+	if (window.focus) popup.focus();
+    }
+    function openAdvert() {
+	popup = open('$(link-advert)', 'hotspot_advert', '');
+	setTimeout("focusAdvert()", 1000);
+    }
+$(endif)
+    function openLogout() {
+	if (window.name != 'hotspot_status') return true;
+        open('$(link-logout)', 'hotspot_logout', 'toolbar=0,location=0,directories=0,status=0,menubars=0,resizable=1,width=280,height=250');
+	window.close();
+	return false;
+    }
+//-->
+</script>
+<script language="JavaScript">
+
+function readablizeBytes(bytes) {
+var s = ['bytes', 'kb', 'MB', 'GB', 'TB', 'PB'];
+var e = Math.floor(Math.log(bytes)/Math.log(1024));
+return (bytes/Math.pow(1024, Math.floor(e))).toFixed(2)+" "+s[e];
+}
+
+</script>
+<script language="JavaScript">
+
+function readablizeBytes(bytes) {
+var s = ['&#1576;&#1575;&#1610;&#1578;', '&#1603;&#1610;&#1604;&#1608;&#1576;&#1575;&#1610;&#1578;', '&#1605;&#1610;&#1580;&#1575;&#1576;&#1575;&#1610;&#1578;', '&#1580;&#1610;&#1580;&#1575;&#1576;&#1575;&#1610;&#1578;', '&#1578;&#1610;&#1585;&#1575;&#1576;&#1575;&#1610;&#1578;', 'PB'];
+var e = Math.floor(Math.log(bytes)/Math.log(1024));
+return (bytes/Math.pow(1024, Math.floor(e))).toFixed(2)+" "+s[e];
+}
+
+</script>
+<style>
+.logoff button span:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -15px;
+    transition: 0.5s;
+	direction: ltr;
+}
+.auto-style1 {
+	clear: both;
+	text-align: center;
+}
+.auto-style2 {
+	font-size: x-large;
+	color: #FFFFFF;
+}
+.auto-style3 {
+	font-size: x-large;
+	color: #00DC1C;
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.auto-style5 {
+	font-size: x-large;
+	color: #20DA01;
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.auto-style6 {
+	font-size: x-large;
+	color: #FF0000;
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.auto-style7 {
+	font-size: x-large;
+	color: #FFFFFF;
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.auto-style8 {
+	font-size: x-large;
+	color: #FFFFFF;
+	font-family: "Adobe نسخ Medium";
+}
+</style>
+</head>
+
+<body style="background-color: #184976">
+    <div class="container">
+        <div class="logo"><img src="page-files/img/logo.png" alt="logo" width="400"></div>
+        <div class="menu">
+          <ul>
+            <a href="#"><li><i class="icon-th"></i> الأسعار</li></a>
+            <a href="#"><li><i class="icon-tag"></i> العروض</li></a>
+            <a href="#" onclick="document.getElementById('alert-back1').style.display = ('block')"><li><i class="icon-phone"></i> أتصل بنا</li></a>
+          </ul>
+        </div>
+    <div class="container2">
+    <div class="note">
+			<div class="avatar" align="center">
+	                            <img src="page-files/img/user.jpg" alt="User" width="150" class="img-circle"/>
+	                        </div>
+							<br><br><br><br><br><br>
+     <div class="note-header">
+            <form action="$(link-logout)" name="logout" onSubmit="return openLogout()">
+    <br>
+ $(if login-by == 'trial')
+ $(elif login-by != 'mac')
+ $(endif)
+ $(if session-time-left)
+ $(else)
+ $(endif)
+ $(if blocked == 'yes')
+ $(elif refresh-timeout)
+ $(endif)
+ $(if login-by-mac != 'yes')
+        <h4>$(username) أهلا بك يا</h4>
+     </div>
+    </div>
+ 
+        <div class="form-box">
+
+        <div class="form-title">
+          <h4>&nbsp;.:: معلومات الحساب ::.</h4>
+		</div>
+		<div class="profile">
+		    <div class="section-username">
+                <h4 style="padding-bottom: 20px;">أسم المستخدم</h4>
+                <h4>$(username)</h4>
+            </div>
+        </div>
+		<div class="profile">
+            <div class="section-ip">
+                <h4 style="padding-bottom: 20px;">عنوان الأيبى</h4>
+                <h4>$(ip)</h4>
+            </div>
+        </div>
+		<div class="profile">
+            <div class="section-download">
+                <h4 style="padding-bottom: 20px;">التحميل المستخدم</h4>
+                <h4>$(bytes-total-nice)</h4>
+            </div>
+        </div>
+		<div class="profile">
+            <div class="section-card">
+                <h4 style="padding-bottom: 20px;">الوقت المتبقي</h4>
+                <h4 id="timeLeft">$(session-time-left)</h4>
+            </div>
+        </div>
+        <div class="profile">
+            <div class="section-remain">
+                <h4 style="padding-bottom: 20px;">الرصيد المتبقي</h4>
+                <h4><script language="JavaScript">document.write(readablizeBytes($(remain-bytes-total)));</script></h4>
+            </div>
+        </div>
+		<div class="profile">
+            <div class="section-uptime">
+                <h4 style="padding-bottom: 20px;">مدة الإتصال</h4>
+                <h4>$(uptime)</h4>
+            </div>
+        </div>
+
+  <br><br>
+	    <div class="form-footer">
+            <div class="logoff">
+            <input type="hidden" name="erase-cookie" value="on">
+            <button type="submit"><span>تسجيل الخروج</span></button>
+        </div>
+		</div>
+		
+        </div>
+        </div>
+	  <div class="clear"></div>
+    </div>
+	    <div class="footer">
+	        <a href="http://www.youtube.com">
+	        <img src="page-files/img/ffff.png" alt="logo" width="100" height="100"/></a>
+			<a href="http://www.twitter.com">
+	        <img src="page-files/img/ssdf.png" alt="logo" width="100" height="100"/></a><a href="http://www.facebook.com"><img src="page-files/img/vddsd.png" alt="logo" width="100" height="100"/></a>&nbsp;
+			<br><a href="https://www.google.ae/">
+	        <img src="page-files/img/fg.png" alt="logo" width="100" height="100"/></a><a href="http://www.flickr.com"><img src="page-files/img/rrrr.png" alt="logo" width="100" height="100"/></a></div>
+        <div class="footer-bottom">
+            &nbsp;
+          <div class="auto-style1"><span class="auto-style8">للإستعلام والدعم 
+			  الفني</span><br class="auto-style2"><span class="auto-style6">&nbsp;0940</span><span class="auto-style7">169</span><span class="auto-style5">002</span><span class="auto-style7"> 
+			  -- </span><span class="auto-style6">73</span><span class="auto-style7">44</span><span class="auto-style3">27</span></div>
+        </div>
+    </div>
+
+        <div id="alert-back1" onclick="document.getElementById('alert-back1').style.display = ('none')">
+          <div id="danger" class="alert1">
+            <span class="closebtn1">
+			  <strong style="font-size: 2rem;">&times;</strong>
+			</span>
+            <strong>محمد تناري : 0999999999</strong>
+          </div>
+        </div>
+		</form>
+ <script type="text/javascript">
+document.getElementById("timeLeft").innerHTML = "$(session-time-left)".replace("w", " أسبوع , ").replace("d", " يوم , ").replace("h", " ساعة , ").replace("m", " دقيقة , ").replace("s", " ثانية");
+</script>
+</body>
+</html>

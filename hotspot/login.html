@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="windows-1256" />
+    <title>تسجيل الدخول : HALAP NET :</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link href="page-files/fonts/notofont.css" rel="stylesheet" />
+    <link href="page-files/css/fontello.css" rel="stylesheet" />
+    <link href="page-files/css/login.css" rel="stylesheet" />
+	
+<script language="javascript" type="text/javascript">
+function removeSpaces(string) {
+ return string.split(' ').join('');
+}
+</script>
+<style>
+.trial span:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -15px;
+    transition: 0.5s;
+}
+.checked {
+    direction: rtl;
+}
+</style>
+</head>
+$(if chap-id)
+	<form name="sendin" action="$(link-login-only)" method="post">
+		<input type="hidden" name="username" />
+		<input type="hidden" name="password" />
+		<input type="hidden" name="dst" value="$(link-orig)" />
+		<input type="hidden" name="popup" value="true" />
+	</form>
+	
+	<script type="text/javascript" src="/md5.js"></script>
+	<script type="text/javascript">
+	<!--
+	    function doLogin() {
+		document.sendin.username.value = document.login.username.value;
+		document.sendin.password.value = hexMD5('$(chap-id)' + document.login.password.value + '$(chap-challenge)');
+		document.sendin.submit();
+		return false;
+	    }
+	//-->
+	</script>
+<script>
+function createCookie(name,value,days) {
+	if (days) {
+		var date = new Date();
+		date.setTime(date.getTime()+(days*24*60*60*1000));
+		var expires = "; expires="+date.toGMTString();
+	}
+	else var expires = "";
+	document.cookie = name+"="+value+expires+"; path=/";
+}
+
+function readCookie(name) {
+	var nameEQ = name + "=";
+	var ca = document.cookie.split(';');
+	for(var i=0;i < ca.length;i++) {
+		var c = ca[i];
+		while (c.charAt(0)==' ') c = c.substring(1,c.length);
+		if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+	}
+	return null;
+}
+
+function eraseCookie(name) {
+	createCookie(name,"",-1);
+}
+
+</script>
+<script>
+function delluserandpass() {
+eraseCookie('name');
+document.login.username.value = '';
+document.getElementById('rem').innerHTML = '<INPUT type="checkbox" value="ON" name="rem" checked>&#1578;&#1600;&#1584;&#1603;&#1600;&#1585; &#1585;&#1605;&#1600;&#1586; &#1575;&#1604;&#1600;&#1583;&#1582;&#1600;&#1608;&#1604;';
+document.login.username.focus(0);
+}
+
+</script>
+<script>
+
+
+function rem() {
+
+name = document.login.username.value;
+createCookie('name', name, '30');
+}
+</script>
+$(endif)
+
+
+    <!------------------- img----------------------------------------------->
+<body>
+    <div class="container">
+        <div class="logo"><img src="page-files/img/logo.png" alt="logo" width="220"></div>
+		
+
+				<a  href="https://chat.whatsapp.com/FfWYMCYTDss8k5TtZIkSX1" class="link_btn" >مجتمع حلب نت</a>
+
+		
+        <div class="menu">
+          <ul>
+            <a href="#" onclick="document.getElementById('alert-show').style.display = ('block')"><li><i class="icon-spin1"></i> أخبار الشبكة </li></a>
+          </ul>
+        </div>
+		
+		
+		
+		
+    <div class="container2">
+ 
+        <div class="form-box">
+          <form name="login" action="$(link-login-only)" method="post"
+		          $(if chap-id) onSubmit="return doLogin()" $(endif)>
+	        <input type="hidden" name="dst" value="$(link-orig)" />
+			<input type="hidden" name="popup" value="true" />
+        <div class="form-title">
+          <h4>تسجيل الدخول</h4>
+		</div>
+        <div class="input-field">
+          <i class="icon-user"></i>
+            <input type="text" id="textfield" name="username" onblur="this.value=removeSpaces(this.value);" placeholder="أسم المستخدم" />
+			<div class="remove-user" onclick="clearFields()"><strong style="font-size: 2rem;">&times;</strong></div>
+        </div>
+    	    <div class="input-field">
+          <i class="icon-lock"></i>
+		  <input type="password" onblur="this.value=removeSpaces(this.value);" 
+		    	    name="password" class="input" placeholder="كلمة المرور" />
+		    </div>
+
+        <div class="submit">
+            <button type="submit">دخول</button>
+        </div>
+			 $(if trial == 'yes')
+	            <a href="$(link-login-only)?dst=$(link-orig-esc)&amp;username=T-$(mac-esc)">
+	               <div class="trial"><span><i class="fa fa-sign-in"></i>" واتس آب 15 دقيقة "</div></i></a>
+	       $(endif)
+		   		  <div class="checked"><h4 id=rem>
+<input type="checkbox" value="ON" name="rem" checked>	 &#1578;&#1600;&#1584;&#1603;&#1600;&#1585; &#1585;&#1605;&#1600;&#1586; &#1575;&#1604;&#1600;&#1583;&#1582;&#1600;&#1608;&#1604;	</h4>
+</div>
+  <br>
+	    <div class="form-footer">
+          <h4>:: H.A.L.A.P :: N.E.T</h4>
+		</div>
+          </form>
+        </div>
+	  <div class="clear"></div>
+	<br>
+	    <div class="footer">
+	        <img src="page-files/img/youtu.png" alt="logo" width="75"/>
+	        <img src="page-files/img/facebook.png" alt="logo" width="75"/>
+	        <img src="page-files/img/twitter.png" alt="logo" width="75"/>
+	    </div>
+        <div class="footer-bottom">
+            <span class="right">.:: للتواصل والإستعلام ::.</span>
+            <span class="left"> .:: 05436731980 ::. </span>
+          <div class="clear=%D8%AD%D9%84%D8%A8"></iframe>
+    </div>
+    $(if error)
+   <div id="alert-back">
+   <div id="danger" class="alert">
+   <div class="modal-header">
+   <span class="closebtn" onclick="document.getElementById('alert-back').style.display = ('none')" style="float:left;"><strong>×</strong></span>
+   <h4>رسالة خطأ</h4>
+   </div>
+   <hr>
+   <div class="alert-info">
+   <i style="color: #910000" class="icon-error"></i>
+<script type="text/javascript"> 
+var error = "$(error)";
+if (error == "simultaneous session limit reached") {
+document.write("هذا الحساب إما مستخدم في جهاز آخر أو أنك انتقلت من ناشر الى آخر إنتظر /10/ دقيقة ثم إعد المحاولة");
+}
+else if (error == "invalid username or password") {
+document.write("لقد ادخلت رمز الدخول بطريقة غير صحيحة، الرجاء المحاولة مرة اخرى");
+}
+else if (error == "access denied at this time") {
+document.write("خطأ في النظام اتصل بالدعم الفني");
+}
+else if (error == "uptime limit reached") {
+document.write("عذراً لقد انتهت أيام بطاقتك");
+}
+else if (error == "invalid password") {
+document.write("خطأ في كلمة المرور");
+}
+else if (error == "no more sessions are allowed for user $(username)") {
+document.write("هذا الحساب إما مستخدم في جهاز آخر أو أنك انتقلت من ناشر الى آخر إنتظر /10/ دقيقة ثم إعد المحاولة");
+}
+else if (error == "no valid profile found") {
+document.write("قد انتهت صلاحية بطاقتك عذرا");
+}
+else if (error == "transfer limit reached") {
+document.write("عذراً لقد انتهى رصيد بطاقتك");
+}
+else if (error == "user $(username) has reached traffic limit") {
+document.write("عذراً لقد انتهى رصيد بطاقتك");
+}
+else if (error == "user $(username) is not allowed to log in from this MAC address") {
+document.write("هذا الحساب مقترن بجهاز آخر، لمزيد من المعلومات يرجى الاتصال بخدمة العملاء");
+}
+else if(error.search("RADIUS server is not responding") != -2) {
+document.write("اسم المستخدم خطأ او انتهى حجم البطاقة راجع صاحب شبكة ");
+}
+else if(error.search("not found") != -1) {
+document.write("لقد ادخلت اسم المستخدم بطريقة غير صحيحة، الرجاء المحاولة مرة اخرى");
+}
+else if (error == "invalid Calling-Station-Id") {
+document.write("هذا الحساب مقترن بجهاز آخر، لمزيد من المعلومات يرجى الاتصال بخدمة العملاء");
+}
+else if (error == "radius timeout") {
+document.write("عزيزي المشترك نعتذر عن انقطاع الخدمة بسبب الصيانة سيتم اعادة الخدمة خلال دقائق");
+}
+else if (error == "Total transfer limit reached") {
+document.write("عذراً لقد انتهى رصيد بطاقتك");
+}
+
+else document.write("$(error)<br />")
+</script>
+</div>
+<hr>
+        <div class="modal-footer">
+          <button class="closebtn5" onclick="document.getElementById('alert-back').style.display = ('none')" style="float:left">إغلاق</button>
+        </div>
+		<br>
+        </div>
+        </div>
+    $(endif)
+        <div id="alert-back1" onclick="document.getElementById('alert-back1').style.display = ('none')">
+          <div id="danger" class="alert1">
+            <span class="closebtn1">
+			  <strong style="font-size: 2rem;">&times;</strong>
+			</span>
+            <strong> 05436731980 </strong>
+          </div>
+        </div>
+        <div id="alert-show" onclick="document.getElementById('alert-show').style.display = ('none')">
+          <div id="danger" class="alert2">
+		  <div class="name-show"><strong style="font-size: 1.5rem; color: red;"> أخبار الشبكة هنا </strong></div>
+		  <hr>
+			<h4><a style="color: green;">لايوجد</a> أخبار <a style="color: green;">حالياً </a> !</h4>
+			<h4><a style="color: green;">لايوجد</a> أخبار <a style="color: green;">حالياً </a> !</h4>
+			<h4><a style="color: green;">لايوجد</a> أخبار <a style="color: green;">حالياً </a> !</h4>
+			<hr>
+			<strong style="font-size: 0.9rem; color: #f66504;">[ لا آله الا الله محمد رسول الله ] </strong>
+			<div class="closebtn4">
+			<hr>
+			  <div class="close"><button><strong>إغلاق</strong></button></div>
+			</div>
+          </div>
+        </div>
+<script type="text/javascript">
+<!--
+  document.login.username.focus();
+//-->
+</script>
+<script type="text/javascript">
+function clearFields() {
+    document.getElementById("textfield").value=""
+}
+</script>
+	<script type="text/javascript">
+	<!--
+	    function doLogin() {
+remm = document.login.rem.checked;
+if (remm == true) {
+rem();
+}
+		document.sendin.username.value = document.login.username.value;
+		document.sendin.password.value = hexMD5('$(chap-id)' + document.login.password.value + '$(chap-challenge)');
+		document.sendin.submit();
+		return false;
+	    }
+	//-->
+	</script>
+<script>
+
+document.login.username.focus(0);
+rrr = readCookie('name');
+if (rrr != null) {
+
+document.login.username.value = readCookie('name');
+document.getElementById('rem').innerHTML = '<INPUT type="checkbox" value="ON" name="rem" checked>&#1578;&#1600;&#1584;&#1603;&#1600;&#1585; &#1585;&#1605;&#1600;&#1586; &#1575;&#1604;&#1600;&#1583;&#1582;&#1600;&#1608;&#1604;';
+}
+
+</script>
+</body>
+</html>

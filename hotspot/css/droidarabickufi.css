@@ -1,0 +1,26 @@
+
+<!-- saved from url=(0059)http://fonts.googleapis.com/earlyaccess/droidarabickufi.//css -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"></head><body><pre style="word-wrap: break-word; white-space: pre-wrap;">/*
+ * Droid Arabic Kufi (Arabic) http://www.google.com/fonts/earlyaccess
+ */
+@font-face {
+  font-family: 'Droid Arabic Kufi';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../../assets/font/DroidKufi-Regular.eot);
+  src: url(../../assets/font/DroidKufi-Regular.eot?#iefix) format('embedded-opentype'),
+       url(../../assets/font/DroidKufi-Regular.woff2) format('woff2'),
+       url(../../assets/font/DroidKufi-Regular.woff) format('woff'),
+       url(../../assets/font/DroidKufi-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Droid Arabic Kufi';
+  font-style: normal;
+  font-weight: 700;
+  src: url(../../assets/font/DroidKufi-Bold.eot);
+  src: url(../../assets/font/DroidKufi-Bold.eot?#iefix) format('embedded-opentype'),
+       url(../../assets/font/DroidKufi-Bold.woff2) format('woff2'),
+       url(../../assets/font/DroidKufi-Bold.woff) format('woff'),
+       url(../../assets/font/DroidKufi-Bold.ttf) format('truetype');
+}
+</pre></body></html>
