@@ -73,7 +73,7 @@ section
                 font-size: 1rem 
                 padding: 15px
             
-            ul
+            min
                 padding: 0
                 margin: 0
                 button 
@@ -83,12 +83,14 @@ section
                     border-bottom: 1px solid #ebeaea
                     background-color: white
                     color: #000
-                    text-decoration-line: none
- 
-                
-                button:hover
-                    border-bottom: 1px solid #86bd45
-                    background-color: #e8f0e9
+                    text-decoration-line: none 
+                    &:hover
+                        border-bottom: 1px solid #86bd45
+                        background-color: #e8f0e9
+                    &:focus 
+                        // outline: 1px dotted
+                        outline: 5px auto #86bd46
+                        color: #86bd46
     #accordion
         text-align: right
 .B 

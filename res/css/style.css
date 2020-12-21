@@ -91,12 +91,12 @@ section .profile .my h1 {
   padding: 15px;
 }
 
-section .profile .my ul {
+section .profile .my min {
   padding: 0;
   margin: 0;
 }
 
-section .profile .my ul button {
+section .profile .my min button {
   padding: 10px;
   width: 24%;
   text-align: center;
@@ -107,9 +107,14 @@ section .profile .my ul button {
           text-decoration-line: none;
 }
 
-section .profile .my ul button:hover {
+section .profile .my min button:hover {
   border-bottom: 1px solid #86bd45;
   background-color: #e8f0e9;
+}
+
+section .profile .my min button:focus {
+  outline: 5px auto #86bd46;
+  color: #86bd46;
 }
 
 section #accordion {
