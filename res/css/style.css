@@ -119,6 +119,7 @@ section .profile .my min button:focus {
 
 section #accordion {
   text-align: right;
+  padding: 20px;
 }
 
 .B {
