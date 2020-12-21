@@ -2,12 +2,6 @@
   "short_name": " ktsyr1",
   "name": "ktsyr1 cv ",
   "prefer_related_applications": true,
-  "related_applications": [
-    {
-      "platform": "play",
-      "id": "com.khaled7hamdo.turky"
-    }
-  ],
   "icons": [
     {
       "src": "icon.png",
