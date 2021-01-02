@@ -7,9 +7,8 @@ self.addEventListener('install', function (e) {
             return cache.addAll([
                 '/',
                 '/index.html',
-                '/icon.png',
-                '/res/css/style.min.css',
-                '/res/css/bootstrap.min.css',
+                '/icon.svg',
+                '/res/css/style.min.css', 
                 '/res/css/rest.css',
                 '/res/js/min.js',
 
