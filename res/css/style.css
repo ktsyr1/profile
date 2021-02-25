@@ -244,6 +244,11 @@ a {
   section {
     width: 600px;
   }
+  .cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -256,9 +261,19 @@ a {
   section {
     width: 600px;
   }
+  .cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
+  .cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
   section {
     width: 600px;
   }
