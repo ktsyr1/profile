@@ -28,6 +28,10 @@ button {
           box-shadow: 0 0px 6px -4px;
 }
 
+.cards {
+  margin: 0 auto;
+}
+
 .m-auto, section .profile .img-bg .bg {
   margin: 0 auto;
 }
