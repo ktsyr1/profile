@@ -1,23 +1,16 @@
 {
   "name": "ktsyr1",
-  "version": "1.0.1",
-  "description": "You can use the [editor on GitHub](https://github.com/ktsyr1/ktsyr1/edit/master/README.md) to maintain and preview the content for your website in Markdown files.",
-  "main": "sw.js",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "push": "git push origin master"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ktsyr1/ktsyr1.git"
-  },
-  "keywords": [
-    "cv"
-  ],
-  "author": "ktsyr1",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ktsyr1/ktsyr1/issues"
-  },
-  "homepage": "https://github.com/ktsyr1/ktsyr1#readme"
+  "dependencies": {
+    "next": "10.0.8",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "sass": "^1.32.8"
+  }
 }

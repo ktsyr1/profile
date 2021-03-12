@@ -1,0 +1,81 @@
+{
+    "technology": {
+        "lang": [
+            "HTML5",
+            "CSS3",
+            "JavaScript",
+            "Python"
+        ],
+        "backend": [
+            "Node.js",
+            "Express.js",
+            "JWT",
+            "Puppeteer"
+        ],
+        "frontend": [
+            "React.js",
+            "Next.js",
+            "sass"
+        ],
+        "DB": [
+            "MongoDB"
+        ],
+        "technology": [
+            "PWA",
+            "APIs"
+        ],
+        "devops": [
+            "Github"
+        ]
+    },
+    "links": {
+        "fb": "",
+        "github": "",
+        "wa": "",
+        "t": "",
+        "mail": "",
+        "1": "",
+        "2": "",
+        "3": ""
+    },
+    "ar": {
+        "name": "قتيبة محمد",
+        "text": {
+            "hi": "مرحباً، أنا",
+            "job": "مصمم و مطور تطبيقات ويب",
+            "home": "الرئيسية",
+            "project": "المشاريع",
+            "skill": "المهارات",
+            "contact": "اتصل بي",
+            "MyServices": "خدماتي",
+            "t1": "إنشاء واجهات المواقع التفاعلية و المتوافق مع احجام الشاشات بستخدام React ",
+            "frontend": "تطوير واجهات الويب",
+            "backend": "برمجة خوادم الويب",
+            "t4": "تطوير برمجيات API لخوادم المواقع وفق معايير الويب الحديثة بستخدام Node.js ",
+            "t5": "",
+            "t6": "",
+            "t7": "",
+            "t8": "",
+            "t9": "",
+            "t": ""
+        }
+    },
+    "en": {
+        "name": "Qotayba Mohammad",
+        "text": {
+            "hi": "Hi, I am",
+            "job": "Designer and developer of web applications",
+            "home": "Home",
+            "project": "Project",
+            "skill": "Skills",
+            "contact": "contact",
+            "MyServices": "My Services",
+            "t1": "Creating responsive, interactive and accessible web interfaces using React ",
+            "frontend": "Front-end Web Development",
+            "backend": "Back-end Web Development",
+            "t4": "Developing RESTful APIs endpoints using Node.js ",
+            "t5": "",
+            "t6": ""
+        }
+    }
+}
