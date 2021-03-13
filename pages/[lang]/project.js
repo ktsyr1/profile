@@ -7,6 +7,7 @@ import data from '../../data/data.json'
 export default function Project() {
     const { query } = useRouter() 
     const lang = query.lang 
+    
     if (query != undefined) {
         let datas = data[lang] 
 
