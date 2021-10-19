@@ -40,6 +40,20 @@
     },
     "ar": {
         "name": "قتيبة محمد",
+        "experience": [
+            {
+                "title": "Frontend ReactJs",
+                "description": "تصميم و برمجة واجهات مستخدم باستخدام ReactJs و NextJs"
+            },
+            {
+                "title": "Back-end NodeJs ",
+                "description": "برمجة السيرفرات باستخدام nodejs و express  و MongoDB  و انشاء والتعامل مع apis"
+            },
+            {
+                "title": "Ui / UX",
+                "description": "تصميم تجربة المستخدم و واجهات الاستخدام و تحسين سهولة استخدام المواقع "
+            }
+        ],
         "text": {
             "hi": "مرحباً، أنا",
             "job": "مصمم و مطور تطبيقات ويب",
@@ -62,6 +76,20 @@
     },
     "en": {
         "name": "Qotayba Mohammad",
+        "experience": [
+            {
+                "title": "Frontend ReactJs",
+                "description": "User interface design and programming using ReactJs and NextJs"
+            },
+            {
+                "title": "Back-end NodeJs ",
+                "description": "Programming servers using nodejs, express, MongoDB, creating and working with apis"
+            },
+            {
+                "title": "Ui / UX",
+                "description": "Designing user experience and user interfaces and improving the usability of websites "
+            }
+        ],
         "text": {
             "hi": "Hi, I am",
             "job": "Designer and developer of web applications",

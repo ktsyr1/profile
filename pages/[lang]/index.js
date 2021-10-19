@@ -7,8 +7,6 @@ export default function Home() {
     const lang = query.lang
 
     if (query != undefined) {
-        return (
-            <Homes lang={lang} />
-        )
+        return <></>
     }
 }
