@@ -102,6 +102,17 @@
                 "title": "Ui / UX",
                 "description": "Designing user experience and user interfaces and improving the usability of websites "
             }
+        ], "jobs": [
+            {
+                "url":"https://id-tb.netlify.app",
+                "title": "Medical Centers Directory",
+                "description": "A service to connect patients with medical centers and facilitate access to them"
+            },
+            {
+                "url":"https://android.pesktop.com",
+                "title": "pesktop android",
+                "description": "Hacked Android App Store Special programming and programmed with the best technologies"
+            } 
         ],
         "text": {
             "hi": "Hi, I am",
