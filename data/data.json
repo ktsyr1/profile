@@ -56,17 +56,16 @@
         ],
         "jobs": [
             {
-                "url":"https://id-tb.netlify.app",
+                "url": "https://id-tb.netlify.app",
                 "title": "دليل المراكز الطبية",
                 "description": "خدمة لربط المرضى بالمراكز الطبية و تسهيل الوصول اليها"
             },
             {
-                "url":"https://android.pesktop.com",
+                "url": "https://android.pesktop.com",
                 "title": "pesktop android",
                 "description": "متجر تطبيقات اندرويد مهكرة برمجة خاصة و مبرمج بافظل التقنيات"
-            } 
+            }
         ],
-        
         "text": {
             "hi": "مرحباً، أنا",
             "job": "مصمم و مطور تطبيقات ويب",
@@ -79,6 +78,7 @@
             "frontend": "تطوير واجهات الويب",
             "backend": "برمجة خوادم الويب",
             "t4": "تطوير برمجيات API لخوادم المواقع وفق معايير الويب الحديثة بستخدام Node.js ",
+            "oglink": "زيارة الموقع",
             "t5": "",
             "t6": "",
             "t7": "",
@@ -102,17 +102,18 @@
                 "title": "Ui / UX",
                 "description": "Designing user experience and user interfaces and improving the usability of websites "
             }
-        ], "jobs": [
+        ],
+        "jobs": [
             {
-                "url":"https://id-tb.netlify.app",
+                "url": "https://id-tb.netlify.app",
                 "title": "Medical Centers Directory",
                 "description": "A service to connect patients with medical centers and facilitate access to them"
             },
             {
-                "url":"https://android.pesktop.com",
+                "url": "https://android.pesktop.com",
                 "title": "pesktop android",
                 "description": "Hacked Android App Store Special programming and programmed with the best technologies"
-            } 
+            }
         ],
         "text": {
             "hi": "Hi, I am",
@@ -126,6 +127,7 @@
             "frontend": "Front-end Web Development",
             "backend": "Back-end Web Development",
             "t4": "Developing RESTful APIs endpoints using Node.js ",
+            "oglink": "Visiting site",
             "t5": "",
             "t6": ""
         }

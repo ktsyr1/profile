@@ -1,38 +1,22 @@
- 
+
 import { useRouter } from "next/router"
 import translate from '../data/data.json'
 import Link from 'next/link'
+import LinkButton from "./linkButton"
 export default function Home(props) {
     const { query } = useRouter()
     const lang = query.lang ? props && props.lang : 'ar'
 
     const router = useRouter()
     if (query != undefined) {
-        let langs = lang == "ar" ?
-            <>  <a href='#'>العربية</a>
-                <Link href='/en'>
-                    <a id='go'>English</a>
-                </Link>
-            </>
-            : <>
-
-                <Link href='/ar' >
-                    <a id='go'>العربية</a>
-                </Link>
-                <a href='#'>English</a>
-            </>
 
         let datas = translate[lang]
         let data = datas && datas.text
 
         let dir = lang == "ar" ? { direction: 'rtl' } : { direction: 'ltr' }
+        let path = router.asPath.slice(4) 
         return (
-            < > 
-                <nav style={dir}>
-                    <div className='lang'>
-                        {langs}
-                    </div>
-                </nav>
+            < >
                 <section style={dir} className='profile'>
                     <div className='card'>
                         <img id='logo' src='/images/logo.png' alt={`logo ${data[lang] && data[lang].name}`} />
@@ -42,36 +26,17 @@ export default function Home(props) {
                         </div>
                     </div>
                     <div className='cards'>
-
-                        <Link href={`/${lang}/project`} >
-                            <a className='card'>{data && data.project} </a>
-                        </Link>
-                        <Link href={`/${lang}/skill`} >
-                            <a className='card'> {data && data.skill}  </a>
-                        </Link>
-                        <Link href={`/${lang}/contact`} >
-                            <a className='card'> {data && data.contact}  </a>
-                        </Link>
+                        <LinkButton type={path === "project" ? 'button' : 'link'} href={`/${lang}/project`} class='card' >
+                            {data && data.project}
+                        </LinkButton>
+                        <LinkButton type={path === "skill" ? 'button' : 'link'} href={`/${lang}/skill`} class='card' >
+                            {data && data.skill}
+                        </LinkButton>
+                        <LinkButton type={path === "contact" ? 'button' : 'link'} href={`/${lang}/contact`} class='card' >
+                            {data && data.contact}
+                        </LinkButton> 
                     </div>
                 </section>
-                {/*  
-                <section style={dir} >
-                    <h2>{data && data.MyServices}</h2>
-                    <article className='services'>
-                        <div className='card'>
-                            <img src='/icon/frontend.svg' alt='icon frontend' />
-                            <h3 className="title" >{data && data.frontend}</h3>
-                            <p className='description'> {data && data.t1}</p>
-                        </div>
-
-                        <div className='card'>
-                            <img src='/icon/backend.svg' alt='icon backend' />
-                            <h3 className="title" >{data && data.backend}</h3>
-                            <p className='description'> {data && data.t4}</p>
-                        </div>
-
-                    </article>
-                </section> */}
             </>
         )
     }

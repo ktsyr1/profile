@@ -15,10 +15,10 @@ export default function Project() {
                     return (
                         <div className='card'>
                             <h3>
-                                <img src={job.url +'/favicon.ico'} />
+                                <img src={job.url + '/favicon.ico'} />
                                 {job.title}</h3>
                             <p>{job.description}</p>
-                            <a href={job.url}>زيارة الموقع</a>
+                            <a href={job.url}>{datas && datas.text && datas.text.oglink}</a>
                         </div>
                     )
                 })}

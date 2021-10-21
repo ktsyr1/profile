@@ -9,17 +9,17 @@ export default function Skills() {
         let datas = data[lang]
 
         let dir = lang == "ar" ? { direction: 'rtl' } : { direction: 'ltr' }
-        return ( 
-                <div className='experience'>
-                    {datas && datas.experience.map((ex, i) => {
-                        return (
-                            <div className='card'>
-                                <h3>{ex.title}</h3>
-                                <p>{ex.description}</p>
-                            </div>
-                        )
-                    })}
-                </div> 
+        return (
+            <div className='experience'>
+                {datas && datas.experience.map((ex, i) => {
+                    return (
+                        <div className='card' key={i}>
+                            <h3>{ex.title}</h3>
+                            <p>{ex.description}</p>
+                        </div>
+                    )
+                })}
+            </div>
         )
     }
 }

@@ -1,6 +1,7 @@
 
 import Home from './home'
 import { useRouter } from "next/router"
+import Lang from './lang'
 
 export default function LayoutHome({ children }, { props }) {
     const { query } = useRouter()
@@ -9,6 +10,7 @@ export default function LayoutHome({ children }, { props }) {
 
     return (
         <>
+            <Lang />
             <Home lang={lang} />
             <>{children}</>
         </>
