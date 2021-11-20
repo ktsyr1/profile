@@ -1,7 +1,16 @@
 
+import Router, { useRouter } from 'next/router'
 import Homes from '../components/home'
-export default function Home() {
+export default function Home(props) {
+    let a
+    if (typeof window !== 'undefined') {
+        a = document.defaultView.clientInformation.languages
+        a = a.filter(i => i.length === 2)
+        a = a[a.length - 1]
+        Router.push({ pathname: `/${a}` })
+    }
+
     return (
-        < ></>
+        < >{a}</>
     )
 }

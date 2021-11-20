@@ -1,6 +1,6 @@
 
 import { useRouter } from "next/router"
-import data from '../../data/data.json'
+import data from 'data/data.json'
 
 export default function Skills() {
     const { query } = useRouter()

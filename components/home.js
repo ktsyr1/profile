@@ -1,6 +1,6 @@
 
 import { useRouter } from "next/router"
-import translate from '../data/data.json'
+import translate from 'data/data.json'
 import Link from 'next/link'
 import LinkButton from "./linkButton"
 export default function Home(props) {
@@ -14,12 +14,12 @@ export default function Home(props) {
         let data = datas && datas.text
 
         let dir = lang == "ar" ? { direction: 'rtl' } : { direction: 'ltr' }
-        let path = router.asPath.slice(4) 
+        let path = router.asPath.slice(4)
         return (
-            < >
+            <>
                 <section style={dir} className='profile'>
                     <div className='card'>
-                        <img id='logo' src='/images/logo.png' alt={`logo ${data[lang] && data[lang].name}`} />
+                        <img id='logo' src='/images/logo.png' alt={`logo ${datas && datas.name}`} />
                         <div className='content'>
                             <h1> {datas && datas.name}</h1>
                             <b>{data && data.job}</b>
@@ -34,7 +34,7 @@ export default function Home(props) {
                         </LinkButton>
                         <LinkButton type={path === "contact" ? 'button' : 'link'} href={`/${lang}/contact`} class='card' >
                             {data && data.contact}
-                        </LinkButton> 
+                        </LinkButton>
                     </div>
                 </section>
             </>
