@@ -1,5 +1,6 @@
 import Layout from '../components/layout'
 import '../styles/style.sass'
+import '../styles/theme.sass'
 import Head from 'next/head'
 
 import Router from 'next/router';

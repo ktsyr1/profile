@@ -26,17 +26,9 @@ button
 nav
     display: flex
     top: 0
-    // position: absolute
-    // width: 100%
-    // padding: 21px
     justify-content: space-around
-    // @include sh
 
     .lang
-        display: flex
-        align-items: flex-start
-        flex-direction: row
-        align-content: space-between
         button
             opacity: 0.3
             padding: 0
@@ -63,82 +55,13 @@ nav
             text-align: center
 
 section
-    // padding: 70px 50px 50px 50px
     #logo
         width: 150px
-
-    &.profile
-        display: flex
-        justify-content: center
-        flex-direction: column
-        align-items: center
-        box-shadow: 5px 5px 10px #ddd
-        background-color: #fff
-        border-radius: 10px
-        color: #1a8a7e
-        max-width: 500px
-        margin: 0 auto
-        > .card
-            display: flex
-            margin: 10px
-            align-items: center 
-            flex-wrap: wrap
-            justify-content: center
-            flex-direction: column
-            .content
-                display: flex
-                flex-direction: column
-                text-align: center
-
-        .cards
-            margin: 20px
-            display: flex
-            flex-direction: row
-            flex-wrap: wrap
-            justify-content: center
-            // align-items: center
-            align-content: center
-            .card
-                text-decoration: none
-                padding: 10px
-                box-shadow: 5px 5px 10px #ddd
-                background-color: #1a8a7e
-                color: #fff
-                border-radius: 10px
-                margin: 10px
-            button
-                text-decoration: none
-                padding: 10px
-                box-shadow: 5px 5px 10px #ddd
-                background-color: #eee
-                color: #1a8a7e
-                border-radius: 10px
-                margin: 10px
-                font-size: 23px
     h1
         color: #1a8a7e
         text-align: center
         padding: 0
         margin: 0
-        b
-            color: #737373
-        &.links
-            padding: 0 40px
-        &.services
-            display: flex
-            flex-wrap: wrap
-            .card
-                flex-basis: 50%
-                flex-shrink: 0
-                flex-grow: 0
-                box-sizing: border-box
-                img
-                    height: fit-content
-                .description
-                    max-width: 450px
-        a img, a svg
-            width: 30px
-            margin: 10px
 
     .links
         display: flex
@@ -202,3 +125,20 @@ section
             background-color: #1a8a7e
             padding: 5px
             border-radius: 10px
+ul
+    list-style-type: none
+    font-size: 1rem
+    display: flex
+    flex-direction: column
+    width: 100%
+    padding: 0
+    margin: 0
+.m
+    margin: 10px
+    &-a
+        margin: 0 auto
+.w
+    &-300
+        width: 300px
+.pro
+    border: 5px solid

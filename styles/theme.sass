@@ -1,0 +1,95 @@
+
+:root
+    --colorUIM: #c0e0ff
+    --colorUI: #4eacf5
+    --colorUIX: #1a8a7e
+    --colorBG: #ffffff
+    --colorBGB: #f2f3f7
+    --colorDark: #2b373a
+    --colorDarkX: #21282a
+    // --colorU#4b774b443
+    // --colorUIX: #019540
+
+$colorBG: var(--colorBG)
+$colorBGB: var(--colorBGB)
+$colorUI: var(--colorUI)
+$colorUIX: var(--colorUIX)
+$colorUIM: var(--colorUIM)
+$colorDark: var(--colorDark)
+$colorDarkX: var(--colorDarkX)
+@mixin sh()
+    box-shadow: 5px 5px 10px #ddd
+
+.box
+    display: flex
+    padding: 5px 10px
+    &.space
+        justify-content: space-between
+    &.col
+        flex-direction: column
+    &.row
+        flex-direction: row
+    &.grid
+        flex-wrap: wrap
+        justify-content: center
+        flex-direction: row
+    &.left
+        justify-content: flex-start
+        flex-direction: row
+        width: 100%
+
+    &.center
+        align-items: center
+        &-full
+            align-items: center
+            justify-content: center
+        &-col
+            justify-content: center
+        &-text
+            text-align: center
+    &.scroll
+
+        overflow: scroll
+    .btn
+        color: #fff
+        background-color: $colorUIX
+        box-shadow: 5px 5px 10px #ddd
+        padding: 10px
+        text-align: center
+        border-radius: 10px
+        min-width: 50px
+        &.diseble
+            color: $colorUIX
+            background-color: $colorBG
+        &.red
+            color: $colorBG
+            background-color: red
+
+    b
+        padding: 10px
+    strong ,a
+        padding: 0 10px
+    .icon > svg
+        width: 20px
+        height: 20px
+        padding-left: 10px
+.page
+    max-width: 500px
+    width: -webkit-fill-available
+.ui
+    box-shadow: 5px 5px 10px #ddd
+    background-color: #fff
+    border-radius: 10px
+    color: $colorUIX
+    padding: 10px
+    // margin: 10px
+button
+    border: 0
+    text-decoration: none
+    padding: 10px
+    box-shadow: 5px 5px 10px #ddd
+    background-color: #eee
+    color: #1a8a7e
+    border-radius: 10px
+    margin: 10px
+    font-size: 23px

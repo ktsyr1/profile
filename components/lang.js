@@ -1,12 +1,10 @@
 
 import { useRouter } from "next/router"
-import translate from '../data/data.json'
-import Link from 'next/link'
 import LinkButton from "./linkButton"
 export default function Lang(props) {
     const { query } = useRouter()
-    const lang = query.lang  
-    if (query != undefined) { 
+    const lang = query.lang
+    if (query != undefined) {
         return (
             < >
                 <nav  >
