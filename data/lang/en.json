@@ -45,6 +45,9 @@
         {
             "title": "Back-end NodeJs ",
             "description": "Programming servers using nodejs, express, MongoDB, creating and working with apis"
+        }, {
+            "title": "Web Scrap",
+            "description": "Web scraping and business automation"
         },
         {
             "title": "Ui / UX",

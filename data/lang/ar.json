@@ -45,6 +45,9 @@
         {
             "title": "Back-end NodeJs ",
             "description": "برمجة السيرفرات باستخدام nodejs و express  و MongoDB  و انشاء والتعامل مع apis"
+        }, {
+            "title": "Web Scrap",
+            "description": "تجريف صفحات الويب و أَتْمَتَةٌ الاعمال"
         },
         {
             "title": "Ui / UX",
