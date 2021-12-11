@@ -46,10 +46,8 @@ function SEO(props) {
             {/* <meta name="twitter:creator" content="@PesktopCo" /> */}
 
             <meta name="description" content={description} />
-                <link rel="canonical" href="https://ktsyr1.netlify.app" />
+            -      <link rel="canonical" href="https://ktsyr1.netlify.app" />
             <link rel="manifest" href="/manifest.json" />
-            <script async defer data-domain="ktsyr1.vercel.app" src="https://analytics.wifi4games.com/js/plausible.js"></script>
-
             /////////////////////////////
 
 

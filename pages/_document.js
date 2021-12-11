@@ -1,6 +1,6 @@
 
-import Document, { Html, Head, Main, NextScript } from "next/document";  
-export default class CustomDocument extends Document { 
+import Document, { Html, Head, Main, NextScript } from "next/document";
+export default class CustomDocument extends Document {
 
   static async getInitialProps(ctx) {
     const originalRenderPage = ctx.renderPage
@@ -18,16 +18,19 @@ export default class CustomDocument extends Document {
 
     return initialProps
   }
-  render() { 
+  render() {
     // if (typeof window !== "undefined") { }
-    
+
 
     return (
       <Html  >
-        <Head />
-        <body> 
-          <Main />  
-          <NextScript />  
+        <Head >
+          <script async defer data-domain="ktsyr1.vercel.app" src="https://analytics.wifi4games.com/js/plausible.js"></script>
+
+        </Head>
+        <body>
+          <Main />
+          <NextScript />
         </body>
       </Html>
     );
