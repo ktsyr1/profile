@@ -26,8 +26,7 @@ function MyApp({ Component, pageProps }) {
         <meta property="fb:title" content=" Qotayba Mohammad" />
         <meta property="twitter:title" content="Qotayba Mohammad" />
         <meta name="Description" content="الموقع الشخصي لقتيبة محمد" />
-        <meta name="Keywords" content="قتيبة محمد, موقع قتيبة محمد , Qotayba Mohammad , Qotayba Mohammad website" />
-        <meta name="google-site-verification" content="nmG596id8_ITnyFhT6XRJY0gE-nKdWY2WRLk3-ulGwA" />
+        <meta name="Keywords" content="قتيبة محمد, موقع قتيبة محمد , Qotayba Mohammad , Qotayba Mohammad website" /> 
         <link rel="canonical" href="https://ktsyr1.netlify.app" />
         <link rel="manifest" href="/manifest.json" />
         <link rel="apple-touch-icon" href="#" />
