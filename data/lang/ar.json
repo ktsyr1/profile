@@ -4,7 +4,12 @@
     "siteName": "قتيبة محمد",
     "direction": "rtl",
     "fullname": "قتيبة محمد",
-    "project": [
+    "project": [{
+            "url": "https://play.google.com/store/apps/details?id=io.pekpay.app‎‏",
+            "title": "pekpay",
+            "description": "تطبيق لعرض اسعار الليرة اللبنانية و مقابل عدة عملات مثل الدولار و اليورو و الريال السعودي وعدة عملات آخرة بالاضافة لاسعار بعض العملات المشفرة",
+            "year": 2022
+        },
         {
             "url": "https://botqa.vercel.app",
             "title": "بوتقة",
