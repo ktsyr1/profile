@@ -1,4 +1,5 @@
 
+import Card from 'components/card'
 import Project from 'components/page/project'
 import { useRouter } from "next/router"
 
@@ -18,8 +19,8 @@ export default function Home({ data, info }) {
 
                                 <span>{year}</span>
                                 <a href={url} className='btn '>
-                        {/* <img width={100} height={100} src={'/images/link.svg'} alt={title[lang] + ' logo'} /> */}
-                                
+                                    {/* <img width={100} height={100} src={'/images/link.svg'} alt={title[lang] + ' logo'} /> */}
+
                                     {info[lang].view}
                                 </a>
 
@@ -28,6 +29,7 @@ export default function Home({ data, info }) {
                     </div>
                 )
             })}
+            <Card />
         </div>
     )
 }
