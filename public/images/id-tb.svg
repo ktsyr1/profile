@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="184" height="183" viewBox="0 0 184 183">
+  <defs>
+    <filter id="Line_4" x="52.689" y="106.763" width="38.716" height="62.396" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#2680eb" flood-opacity="0.498"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Line_6" x="84.673" y="71.245" width="38.08" height="61.172" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-color="#2680eb" flood-opacity="0.498"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Line_5" x="66.193" y="71.417" width="43.953" height="98.132" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-color="#2680eb" flood-opacity="0.498"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Line_1" x="14.649" y="107.593" width="62.873" height="24.017" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-color="#2680eb" flood-opacity="0.498"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Line_2" x="97.929" y="107.593" width="71.619" height="24.017" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-5"/>
+      <feFlood flood-color="#2680eb" flood-opacity="0.498"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_172" x="11" y="29" width="163" height="152" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-6"/>
+      <feFlood flood-color="#2680eb" flood-opacity="0.498"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_173" x="15" y="33" width="152" height="49" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-7"/>
+      <feFlood flood-color="#2680eb" flood-opacity="0.498"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_174" x="34" y="12" width="29" height="37" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-8"/>
+      <feFlood flood-color="#2680eb" flood-opacity="0.498"/>
+      <feComposite operator="in" in2="blur-8"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-logo">
+      <rect width="184" height="183"/>
+    </clipPath>
+  </defs>
+  <g id="logo" clip-path="url(#clip-logo)">
+    <g id="Group_314" data-name="Group 314" transform="translate(-1363.947 -297.926)">
+      <g id="Group_313" data-name="Group 313" transform="translate(1390.597 378.993)">
+        <g transform="matrix(1, 0, 0, 1, -26.65, -81.07)" filter="url(#Line_4)">
+          <line id="Line_4-2" data-name="Line 4" x2="13.053" y2="36.733" transform="translate(65.52 116.59)" fill="none" stroke="#00e5c3" stroke-linecap="round" stroke-width="6"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, -26.65, -81.07)" filter="url(#Line_6)">
+          <line id="Line_6-2" data-name="Line 6" x2="12.435" y2="35.527" transform="translate(97.5 81.07)" fill="none" stroke="#00e5c3" stroke-linecap="round" stroke-width="6"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, -26.65, -81.07)" filter="url(#Line_5)">
+          <line id="Line_5-2" data-name="Line 5" x1="18.652" y2="72.831" transform="translate(78.84 81.07)" fill="none" stroke="#00e5c3" stroke-linecap="round" stroke-width="6"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, -26.65, -81.07)" filter="url(#Line_1)">
+          <line id="Line_1-2" data-name="Line 1" y1="0.015" x2="38.87" transform="translate(26.65 116.59)" fill="none" stroke="#00e5c3" stroke-linecap="round" stroke-width="6"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, -26.65, -81.07)" filter="url(#Line_2)">
+          <line id="Line_2-2" data-name="Line 2" x2="47.617" y2="0.015" transform="translate(109.93 116.59)" fill="none" stroke="#00e5c3" stroke-linecap="round" stroke-width="6"/>
+        </g>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 1363.95, 297.93)" filter="url(#Rectangle_172)">
+        <path id="Rectangle_172-2" data-name="Rectangle 172" d="M0,0H137a0,0,0,0,1,0,0V116a10,10,0,0,1-10,10H10A10,10,0,0,1,0,116V0A0,0,0,0,1,0,0Z" transform="translate(24 39)" fill="none" stroke="#2680eb" stroke-width="8"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 1363.95, 297.93)" filter="url(#Rectangle_173)">
+        <g id="Rectangle_173-2" data-name="Rectangle 173" transform="translate(24 39)" fill="#2680eb" stroke="#2680eb" stroke-width="1">
+          <rect width="134" height="31" stroke="none"/>
+          <rect x="0.5" y="0.5" width="133" height="30" fill="none"/>
+        </g>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 1363.95, 297.93)" filter="url(#Rectangle_174)">
+        <g id="Rectangle_174-2" data-name="Rectangle 174" transform="translate(43 18)" fill="#2680eb" stroke="#2680eb" stroke-width="1">
+          <rect width="11" height="19" stroke="none"/>
+          <rect x="0.5" y="0.5" width="10" height="18" fill="none"/>
+        </g>
+      </g>
+      <g id="Rectangle_175" data-name="Rectangle 175" transform="translate(1492.947 315.926)" fill="#2680eb" stroke="#2680eb" stroke-width="1">
+        <rect width="12" height="19" stroke="none"/>
+        <rect x="0.5" y="0.5" width="11" height="18" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>
