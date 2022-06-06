@@ -2,7 +2,7 @@
 import Project from 'components/page/project'
 import { useRouter } from "next/router"
 
-export default function Home({ data }) {
+export default function Home({ data, info }) {
     const { query } = useRouter()
     const lang = query.lang
     return (
@@ -12,12 +12,18 @@ export default function Home({ data }) {
                 return (
                     <div className=' box row w-300 ui m  ' key={i}>
                         <img width={100} height={100} src={icon} alt={title[lang] + ' logo'} />
-                        <div className='box col start'>
+                        <div className='box col start space  w-full'>
                             <b>{title[lang]}</b>
+                            <div className='box row space center w-full'>
 
-                            <span>{year}</span>
-                            {/* <p>{description[lang]}</p> */}
-                            {/* <a href={url} className='btn ui'>{data.oglink}</a> */}
+                                <span>{year}</span>
+                                <a href={url} className='btn '>
+                        {/* <img width={100} height={100} src={'/images/link.svg'} alt={title[lang] + ' logo'} /> */}
+                                
+                                    {info[lang].view}
+                                </a>
+
+                            </div>
                         </div>
                     </div>
                 )
@@ -28,5 +34,6 @@ export default function Home({ data }) {
 
 Home.getInitialProps = async ({ query }) => {
     let res = await import(`data/projects.json`)
-    return { data: res.default }
+    let info = await import(`data/info.json`)
+    return { data: res.default, info }
 }

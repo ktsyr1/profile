@@ -22,7 +22,8 @@
     "whatsapp": "واتساب",
     "mail": "ايميل",
     "ConnectUs": "تواصل معنا",
-    "feature": "الميزات"
+    "feature": "الميزات",
+    "view": "عرض"
   },
   "en": {
     "lang": "en",
@@ -47,6 +48,7 @@
     "whatsapp": "Whatsapp",
     "email": "Email",
     "ConnectUs": "Connect with us",
-    "feature": "feature"
+    "feature": "feature",
+    "view": "view"
   }
 }
