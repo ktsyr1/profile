@@ -4,6 +4,8 @@ body
     font-family: 'dubai'
     direction: rtl
     background-color: #eee
+body , *
+
     padding: 0
     margin: 0
 
@@ -27,7 +29,9 @@ nav
     display: flex
     top: 0
     justify-content: space-around
-
+    background-color: #fff
+    box-shadow: 5px 5px 10px #ddd
+    margin-bottom: 10px
     .lang
         button
             opacity: 0.3
@@ -140,5 +144,7 @@ ul
 .w
     &-300
         width: 300px
+    &-full
+        width: -webkit-fill-available
 .pro
     border: 5px solid

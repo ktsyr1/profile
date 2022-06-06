@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Web application programming",
+    "description": {
+      "ar": "تصميم وبرمجة تطبيقات ويب بواسطة react(nextjs) و nodejs ",
+      "en": "Designing and programming web applications with react(nextjs) and nodejs"
+    },
+    "pro": "pro",
+    "feature": {
+      "en": [
+        "PWA & Offline",
+        "Provide API",
+        " Simple and easy user interface",
+        "notifications",
+        "Jobs within the class",
+        "scraping web pages"
+      ],
+      "ar": [
+        "PWA & Offline",
+        "توفير API",
+        "واجهة مستخدم سهلة وبسيطة",
+        "الاشعارات",
+        "الوضائف داخل الصفجة ",
+        "تجريف صفحات الويب"
+      ]
+    }
+  },
+  {
+    "title": "Frontend ReactJs",
+    "description": {
+      "ar": "تصميم و برمجة واجهات مستخدم باستخدام ReactJs و NextJs",
+      "en": "User interface design and programming using ReactJs and NextJs"
+    }
+  },
+  {
+    "title": "Back-end NodeJs ",
+    "description": {
+      "ar": "برمجة السيرفرات باستخدام nodejs و express  و MongoDB  و انشاء والتعامل مع apis",
+      "en": "Programming servers using nodejs, express, MongoDB, creating and working with apis"
+    }
+  },
+  {
+    "title": "Web Scrap",
+    "description": {
+      "ar": "تجريف صفحات الويب و أَتْمَتَةٌ الاعمال",
+      "en": "Web scraping and business automation"
+    }
+  },
+  {
+    "title": "Ui / UX",
+    "description": {
+      "en": "Designing user experience and user interfaces and improving the usability of websites ",
+      "ar": "تصميم تجربة المستخدم و واجهات الاستخدام و تحسين سهولة استخدام المواقع "
+    }
+  }
+]

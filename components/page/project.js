@@ -1,8 +1,9 @@
 
-export default function Project(props) {
+export default function Project({ data }) {
+    console.log(data);
     return (
         <div className='box grid  '>
-            {props.project.map((project, i) => {
+            {/* {data?.map((project, i) => {
                 let { url, title, description, year } = project
                 return (
                     <div className=' box col w-300 ui m center-text space' key={i}>
@@ -15,7 +16,7 @@ export default function Project(props) {
                         <a href={url} className='btn ui'>{props.data.oglink}</a>
                     </div>
                 )
-            })}
+            })} */}
         </div>
     )
 }

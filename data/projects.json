@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://play.google.com/store/apps/details?id=io.pekpay.app",
+    "year": 2022,
+    "type": ["android"],
+    "title": {
+      "ar": "بيك باي",
+      "en": "pekpay"
+    },
+    "description": {
+      "ar": "تطبيق لعرض اسعار الليرة اللبنانية و مقابل عدة عملات مثل الدولار و اليورو و الريال السعودي وعدة عملات آخرة بالاضافة لاسعار بعض العملات المشفرة",
+      "en": "An application to display the prices of the Lebanese pound and against several currencies such as the dollar, the euro, the Saudi riyal and several other currencies, in addition to the prices of some encrypted currencies"
+    }
+  },
+  {
+    "url": "https://botqa.vercel.app",
+    "year": 2021,
+    "type": ["web app"],
+    "title": {
+      "ar": "بوتقة",
+      "en": "botqa"
+    },
+    "description": {
+      "ar": "خدمة لربط المرضى بالمراكز الطبية و تسهيل الوصول اليها,وتعمل  اجزاء من الخدمة حتى مع انقطاع الانترنت ",
+      "en": "A service to connect patients with medical centers and facilitate access to them, and parts of the service work even with the internet outage."
+    },
+    "icon": "/images/botqa.png"
+  },
+  {
+    "url": "https://android.pesktop.com",
+    "year": 2021,
+    "type": ["web app"],
+    "title": {
+      "ar": "بيسكتوب اندرويد",
+      "en": "Pesktop Android"
+    },
+    "description": {
+      "ar": "متجر تطبيقات اندرويد مهكرة برمجة خاصة و مبرمج بافضل التقنيات",
+      "en": "Hacked Android App Store Special programming and programmed with the best technologies"
+    },
+    "icon": "/images/pesktopAndroid.png"
+  },
+  {
+    "url": "https://id-tb.netlify.app",
+    "year": 2020,
+    "type": ["web app"],
+    "title": {
+      "ar": "دليل المراكز الطبية",
+      "en": "Medical Centers Directory"
+    },
+    "description": {
+      "ar": "خدمة لربط المرضى بالمراكز الطبية و تسهيل الوصول اليها",
+      "en": " A service to connect patients with medical centers and facilitate access to them"
+    }
+  }
+]

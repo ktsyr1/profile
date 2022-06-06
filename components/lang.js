@@ -1,21 +1,21 @@
 
+import Link from "next/link"
 import { useRouter } from "next/router"
-import LinkButton from "./linkButton"
+
 export default function Lang(props) {
-    const { query } = useRouter()
-    const lang = query.lang
+    let route = useRouter()
+    let { query } = route
+    console.log(route);
+    let lang = query.lang === 'ar' ? "en" : 'ar'
+    let URL = route.asPath.replace(`/${query.lang}/`, `/${lang}/`)
     if (query != undefined) {
         return (
             < >
                 <nav  >
                     <div className='lang'>
-                        <LinkButton type={lang === "ar" ? 'button' : 'link'} href='/ar'>
-                            <img src='/images/ar.png' alt='arabic lang' />
-                        </LinkButton>
-                        <LinkButton type={lang === 'en' ? 'button' : 'link'} href='/en'>
-                            <img src='/images/en.png' alt='en lang' />
-                        </LinkButton>
-
+                        <Link href={URL}>
+                            <a > <img src={`/images/${lang}.png`} alt={` ${lang} lang`} /></a>
+                        </Link > 
                     </div>
                 </nav>
             </>

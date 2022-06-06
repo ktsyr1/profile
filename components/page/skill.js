@@ -6,16 +6,16 @@ export default function Skills(props) {
             {props.skills.map((Skill, i) => {
                 return (
                     <div className={`box col w-300 ui m center-text space ${Skill.pro}`} key={i}>
-                        <h3>{Skill.title}</h3>
+                        <b>{Skill.title}</b>
                         <p>{Skill.description}</p>
                         <ul >
                             {Skill?.feature?.map(f => {
                                 return <li key={f}>{f}</li>
                             })}
                         </ul>
-                        <Link href={`/${props.data.lang}/contact`}>
+                        {/* <Link href={`/${props.data.lang}/contact`}>
                             <a className='btn ui'>{props.data.text.ConnectUs}</a>
-                        </Link>
+                        </Link> */}
                     </div>
                 )
             })}

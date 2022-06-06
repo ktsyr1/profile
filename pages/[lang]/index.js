@@ -15,6 +15,6 @@ export default function Home(props) {
 }
 
 Home.getInitialProps = async ({ query }) => {
-    let res = await import(`../../data/lang/${query.lang}.json`)
+    let res = await import(`data/lang/${query.lang}.json`)
     return { data: res }
 }

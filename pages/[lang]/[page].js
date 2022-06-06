@@ -5,24 +5,9 @@ import Project from 'components/page/project';
 import Skills from 'components/page/skill';
 export default function Page(props) {
     let { query, data } = props
-    if (query.page === 'project') {
+    if (query.page === 'contact') {
         return (
             <section>
-                <Home data={data} />
-                <Project data={data.text} project={data.project} />
-            </section>
-        )
-    } if (query.page === 'skill') {
-        return (
-            <section>
-                <Home data={data} />
-                <Skills data={data} skills={data.skills} />
-            </section>
-        )
-    } if (query.page === 'contact') {
-        return (
-            <section>
-                <Home data={data} />
                 <Contact data={data} />
             </section>
         )

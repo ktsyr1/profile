@@ -32,12 +32,12 @@ function SEO(props) {
             <meta property="fb:title" content={title} />
 
             <meta property="og:title" content={title} />
-            -     <meta property="og:locale" content="ar_AR" />
-            -     <meta property="og:site_name" content="" />
+            <meta property="og:locale" content="ar_AR" />
+            <meta property="og:site_name" content="" />
             <meta property="og:type" content="website" />
             <meta property="og:description" content={description} />
             <meta property="og:image" content={image} />
-            -       <meta property="og:image:alt" content="pesktop android intro" />
+            <meta property="og:image:alt" content="pesktop android intro" />
 
 
             <meta name="twitter:image:src" content={image} />
@@ -47,9 +47,8 @@ function SEO(props) {
             {/* <meta name="twitter:creator" content="@PesktopCo" /> */}
 
             <meta name="description" content={description} />
-            -      <link rel="canonical" href="https://ktsyr1.vercel.app" />
+            <link rel="canonical" href="https://ktsyr1.vercel.app" />
             <link rel="manifest" href="/manifest.json" />
-            /////////////////////////////
 
 
 

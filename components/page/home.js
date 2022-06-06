@@ -19,18 +19,7 @@ export default function Home(props) {
                             <h1> {fullname}</h1>
                             <b>{description}</b>
                         </div>
-                    </div>
-                    <div className='box '>
-                        <LinkButton type={path === "project" ? 'button' : 'link'} href={`/${lang}/project`} class='btn m' >
-                            {project}
-                        </LinkButton>
-                        <LinkButton type={path === "skill" ? 'button' : 'link'} href={`/${lang}/skill`} class='btn m' >
-                            {skill}
-                        </LinkButton>
-                        <LinkButton type={path === "contact" ? 'button' : 'link'} href={`/${lang}/contact`} class='btn m' >
-                            {contact}
-                        </LinkButton>
-                    </div>
+                    </div> 
                 </section>
             </>
         )
