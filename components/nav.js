@@ -28,7 +28,7 @@ export default function Lang(props) {
                         <img id='logo' src='/images/logo.png' alt={`logo ${data?.fullname}`} />
                     </a>
                 </Link >
-                <h1> {data?.fullname}</h1>
+                <h1 style={{ textAlign: 'center' }} > {data?.fullname}</h1>
 
                 <Link href={URL}>
                     <a className="lang box center-full" > <img src={`/images/${to}.png`} alt={` ${to} lang`} /></a>
