@@ -58,22 +58,25 @@
   "ones": [
     "HTML5",
     "CSS3",
-    "JavaScript",
-    "Sass",
-    "React.js",
-    "Next.js",
-    "Tailwind CSS",
     "Bootstrap",
     "Material UI",
+    "Tailwind CSS",
+    "Sass",
+    "JavaScript",
+    "React.js",
+    "Next.js",
     "Node.js",
     "Express.js",
+    "RESTful API",
+    "SPA (Single Page Application)",
+    "Web Scraping",
     "MySQL",
     "MongoDB",
+    "Mongoose",
     "Ubuntu",
-    "RESTful API",
     "Github",
     "PWA",
     "UI / UX",
-    "Web Scraping"
+    "Adobe XD"
   ]
 }
