@@ -1,82 +1,54 @@
-{
-  "all": [
-    {
-      "title": "Web application programming",
-      "description": {
-        "ar": "تصميم وبرمجة تطبيقات ويب بواسطة react(nextjs) و nodejs ",
-        "en": "Designing and programming web applications with react(nextjs) and nodejs"
-      },
-      "pro": "pro",
-      "feature": {
-        "en": [
-          "PWA & Offline",
-          "Provide API",
-          " Simple and easy user interface",
-          "notifications",
-          "Jobs within the class",
-          "scraping web pages"
-        ],
-        "ar": [
-          "PWA & Offline",
-          "توفير API",
-          "واجهة مستخدم سهلة وبسيطة",
-          "الاشعارات",
-          "الوضائف داخل الصفجة ",
-          "تجريف صفحات الويب"
-        ]
-      }
+[
+  {
+    "title": "Frontend",
+    "description": {
+      "ar": "تصميم و برمجة واجهات مواقع الويب ",
+      "en": "Website design and programming"
     },
-    {
-      "title": "Frontend ReactJs",
-      "description": {
-        "ar": "تصميم و برمجة واجهات مستخدم باستخدام ReactJs و NextJs",
-        "en": "User interface design and programming using ReactJs and NextJs"
-      }
+    "key": [
+      "HTML5",
+      "CSS3",
+      "Bootstrap",
+      "Material UI",
+      "Tailwind CSS",
+      "Sass",
+      "JavaScript",
+      "React.js",
+      "Next.js",
+      "SPA (Single Page Application)",
+      "PWA"
+    ]
+  },
+  {
+    "title": "Back-end",
+    "description": {
+      "ar": "برمجة السيرفرات باستخدام nodejs & apis",
+      "en": "Programming servers using nodejs & apis"
     },
-    {
-      "title": "Back-end NodeJs ",
-      "description": {
-        "ar": "برمجة السيرفرات باستخدام nodejs و express  و MongoDB  و انشاء والتعامل مع apis",
-        "en": "Programming servers using nodejs, express, MongoDB, creating and working with apis"
-      }
+    "key": [
+      "Node.js",
+      "Express.js",
+      "RESTful API",
+      "MongoDB",
+      "Mongoose",
+      "Ubuntu",
+      "Github"
+    ]
+  },
+  {
+    "title": "Web automation",
+    "description": {
+      "ar": "تجريف صفحات الويب و أَتْمَتَةٌ الاعمال",
+      "en": "Web scraping and business automation"
     },
-    {
-      "title": "Web Scrap",
-      "description": {
-        "ar": "تجريف صفحات الويب و أَتْمَتَةٌ الاعمال",
-        "en": "Web scraping and business automation"
-      }
+    "key": ["Web Scraping", "axios", "jsdom", "puppeteer"]
+  },
+  {
+    "title": "UI / UX",
+    "description": {
+      "en": "Designing user experience and user interfaces and improving the usability of websites ",
+      "ar": "تصميم تجربة المستخدم و واجهات الاستخدام و تحسين سهولة استخدام المواقع "
     },
-    {
-      "title": "Ui / UX",
-      "description": {
-        "en": "Designing user experience and user interfaces and improving the usability of websites ",
-        "ar": "تصميم تجربة المستخدم و واجهات الاستخدام و تحسين سهولة استخدام المواقع "
-      }
-    }
-  ],
-  "ones": [
-    "HTML5",
-    "CSS3",
-    "Bootstrap",
-    "Material UI",
-    "Tailwind CSS",
-    "Sass",
-    "JavaScript",
-    "React.js",
-    "Next.js",
-    "Node.js",
-    "Express.js",
-    "RESTful API",
-    "SPA (Single Page Application)",
-    "Web Scraping",
-    "MySQL",
-    "MongoDB",
-    "Mongoose",
-    "Ubuntu",
-    "Github",
-    "PWA",
-    "UI / UX",
-    "Adobe XD"
-  ]
-}
+    "key": ["Adobe XD", "UI / UX", "Research UX"]
+  }
+]
