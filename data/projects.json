@@ -7,12 +7,12 @@
     "tasks": ["backend", "frontend", "UX & UI", "Management"],
     "archive": false,
     "title": {
-      "en": "Qotayba",
-      "ar": "قتيبة"
+      "en": "my this site",
+      "ar": "موقعي  هذا "
     },
-    "description": { 
+    "description": {
       "ar": "الموقع الشخصي لقتيبة",
-      "en": "Personal website of Qotayba" 
+      "en": "Personal website of Qotayba"
     },
     "icon": "/images/logo.png"
   },
