@@ -23,7 +23,10 @@
     "mail": "ايميل",
     "ConnectUs": "تواصل معنا",
     "feature": "الميزات",
-    "view": "عرض"
+    "view": "عرض",
+    "archive": "مؤرشف",
+    "Specialties": "الاختصاصات",
+    "lang_lib": "المكاتب واللغات"
   },
   "en": {
     "lang": "en",
@@ -49,6 +52,9 @@
     "email": "Email",
     "ConnectUs": "Connect with us",
     "feature": "feature",
-    "view": "view"
+    "view": "view",
+    "archive": "archived",
+    "Specialties": "Specialties",
+    "lang_lib": "Offices and languages"
   }
 }

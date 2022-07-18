@@ -1,8 +1,44 @@
 [
   {
+    "url": "https://qotayba.top",
+    "year": 2022,
+    "type": ["web app"],
+
+    "tasks": ["backend", "frontend", "UX & UI", "Management"],
+    "archive": false,
+    "title": {
+      "en": "Qotayba",
+      "ar": "قتيبة"
+    },
+    "description": { 
+      "ar": "الموقع الشخصي لقتيبة",
+      "en": "Personal website of Qotayba" 
+    },
+    "icon": "/images/logo.png"
+  },
+  {
+    "url": "https://bidharat.vercel.app",
+    "year": 2022,
+    "type": ["web app"],
+
+    "tasks": ["backend", "frontend", "UX & UI", "Management"],
+    "archive": false,
+    "title": {
+      "ar": "بذرة علاج",
+      "en": "bidharat"
+    },
+    "description": {
+      "ar": " تطبيق لتسهيل الوصول للخدمات الطبية مثل التبرع بالدم او المستوصفات ",
+      "en": " An application to facilitate access to medical services such as blood donation or clinics"
+    },
+    "icon": "/images/bidharat.webp"
+  },
+  {
     "url": "https://play.google.com/store/apps/details?id=io.pekpay.app",
     "year": 2022,
     "type": ["android"],
+    "tasks": ["backend"],
+    "archive": true,
     "title": {
       "ar": "بيك باي",
       "en": "pekpay"
@@ -17,6 +53,8 @@
     "url": "https://botqa.vercel.app",
     "year": 2021,
     "type": ["web app"],
+    "tasks": ["backend", "frontend", "UX & UI", "Management"],
+    "archive": true,
     "title": {
       "ar": "بوتقة",
       "en": "botqa"
@@ -31,6 +69,8 @@
     "url": "https://android.pesktop.com",
     "year": 2021,
     "type": ["web app"],
+    "tasks": ["backend", "frontend", "UX & UI", "Management"],
+    "archive": true,
     "title": {
       "ar": "بيسكتوب اندرويد",
       "en": "Pesktop Android"
@@ -45,6 +85,9 @@
     "url": "https://id-tb.netlify.app",
     "year": 2020,
     "type": ["web app"],
+
+    "tasks": ["backend", "frontend", "UX & UI", "Management"],
+    "archive": true,
     "title": {
       "ar": "دليل المراكز الطبية",
       "en": "Medical Centers Directory"
