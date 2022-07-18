@@ -1,8 +1,8 @@
 
-export default function Contact(props) {
+export default function Contact({ data }) {
     return (
         < >
-            <section style={{ direction: props.data.direction }}>
+            <section style={{ direction: data.direction }}>
                 <div className="links">
                     <a href="https://t.me/ktsyr1" >telegram
                         <img src='/icon/telegram.svg' alt='icon telegram' />
@@ -26,4 +26,8 @@ export default function Contact(props) {
             </section>
         </>
     )
+}
+Contact.getInitialProps = async ({ query }) => {
+    let res = await import(`data/info.json`)
+    return { data: res[query?.lang], query }
 }
