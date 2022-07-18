@@ -23,6 +23,10 @@ export default function Contact({ data }) {
                         <img src='/icon/github.svg' alt='icon github' />
                     </a>
                 </div>
+                <a href="https://github.com/ktsyr1/profile" className="box ui center center-col m-a">
+                    open source projects
+                    <img src='/icon/github.svg' alt='icon github' width={30} />
+                </a>
             </section>
         </>
     )
