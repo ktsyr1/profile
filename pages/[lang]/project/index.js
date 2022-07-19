@@ -4,20 +4,12 @@ import { useRouter } from "next/router"
 export default function Home({ data, info }) {
     const { query } = useRouter()
     const lang = query.lang
-    // console.log(data);
-    // {
-    //     margin: 5px;
-    //     padding: 5px;
-    //     background-color: #eee;
-    //     border-radius: 20px;
-    //     font-size: small;
-    // } 
     return (
-        <div className='box grid '>
+        <div className='box grid center-col' dir={info[lang]?.direction}>
             {data?.map((project, i) => {
                 let { url, title, description, year, icon, tasks, archive } = project
                 return (
-                    <div className=' box col w-300 ui m space ' key={i}>
+                    <div className={' box col w-300 ui m space '} dir={info[lang]?.direction} key={i}>
                         <div className=' box row center' >
                             <img width={100} height={100} src={icon} alt={title[lang] + ' logo'} />
                             <div className='box col start space  w-full'>

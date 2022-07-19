@@ -2,7 +2,7 @@
 export default function Contact({ data }) {
     return (
         < >
-            <section style={{ direction: data.direction }}>
+            <section>
                 <div className="links">
                     <a href="https://t.me/ktsyr1" >telegram
                         <img src='/icon/telegram.svg' alt='icon telegram' />

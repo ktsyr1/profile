@@ -26,7 +26,8 @@
     "view": "عرض",
     "archive": "مؤرشف",
     "Specialties": "الاختصاصات",
-    "lang_lib": "المكاتب واللغات"
+    "lang_lib": "المكاتب واللغات",
+    "about": "مصمم ومبرمج تطبيقات ويب. وعلى دراية ب TypeScript , JavaScript , React . كما انني مهووس ب ريادة الاعمال و الافكار الابداعية و تجربة المستخدم "
   },
   "en": {
     "lang": "en",
@@ -55,6 +56,7 @@
     "view": "view",
     "archive": "archived",
     "Specialties": "Specialties",
-    "lang_lib": "Offices and languages"
+    "lang_lib": "Offices and languages",
+    "about": "مصمم ومبرمج تطبيقات ويب. وعلى دراية ب TypeScript , JavaScript , React . كما انني مهووس ب ريادة الاعمال و الافكار الابداعية و تجربة المستخدم "
   }
 }

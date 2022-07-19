@@ -4,8 +4,7 @@ import { useRouter } from "next/router"
 
 export default function Lang(props) {
     let route = useRouter()
-    let { query } = route
-    console.log(route);
+    let { query } = route 
     let lang = query.lang === 'ar' ? "en" : 'ar'
     let URL = route.asPath.replace(`/${query.lang}/`, `/${lang}/`)
     if (query != undefined) {

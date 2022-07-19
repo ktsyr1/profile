@@ -9,8 +9,7 @@ export default function Home(props) {
         a = a.filter(i => i.length === 2)
         a = a[a.length - 1]
         Router.push({ pathname: `/${a}` })
-    }
-    // console.log(data);
+    } 
     return (
         <section>
             <Homes data={data} /> 
