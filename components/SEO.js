@@ -15,7 +15,7 @@ function SEO(props) {
             <meta charSet="UTF-8" />
             <meta name="theme-color" content="#1a8a7e" />
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-            <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+            <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
             <meta name="application-name" content={siteName} />
             <meta name="apple-mobile-web-app-status-bar-style" content="default" />
             <meta name="apple-mobile-web-app-capable" content="yes" />

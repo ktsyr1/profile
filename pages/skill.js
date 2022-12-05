@@ -7,9 +7,9 @@ export default function Skills({ data, info }) {
     const lang = route.locale || 'ar'
     return (
         <div className='box col m-a ' dir={info[lang]?.direction}>
-            <div className='box col ui '>
+            <div className='box grid center-col center-text'>
                 {data?.map((skill, i) => (
-                    <div className="box col" key={i}>
+                    <div className="box col ui w-300 m" key={i}>
                         <b>{skill.title}</b>
                         <span>{skill.description[lang]}</span>
                         <div className='box grid center-col' dir={'ltr'}>
