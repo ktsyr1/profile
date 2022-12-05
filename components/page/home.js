@@ -5,7 +5,7 @@ export default function Home(props) {
     const router = useRouter()
     const { query } = router
     if (query != undefined) {
-        let { fullname, direction, description, about } = props.data
+        let { fullname, direction, description, about } = props?.data
 
         return (
             <>
@@ -18,7 +18,7 @@ export default function Home(props) {
                             <p className="task" style={{ textAlgin: 'start' }}>{about}</p>
                         </div>
                     </div>
-                    <iframe width="100%" height="300px" src="https://www.youtube.com/embed/WEAKF7PyypI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" class="ui"></iframe>
+                    <iframe width="100%" height="300px" src="https://www.youtube.com/embed/WEAKF7PyypI" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" className="ui"></iframe>
                 </section>
             </>
         )

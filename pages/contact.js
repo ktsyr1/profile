@@ -30,8 +30,8 @@ export default function Contact({ data }) {
             </section>
         </>
     )
-}
-Contact.getInitialProps = async ({ query }) => {
-    let res = await import(`data/info.json`)
-    return { data: res[query?.lang], query }
+} 
+export async function getStaticProps(ctx) {
+
+     return { props: {data:'test'}, revalidate: 60 * 60 * 24 * 30, }
 }

@@ -1,19 +1,13 @@
 
-import Router, { useRouter } from 'next/router'
-import Homes from 'components/page/home';
-import data from 'data/lang/ar.json'
+import Homes from 'components/page/home'
+import { useRouter } from "next/router"
+
 export default function Home(props) {
-    let a
-    if (typeof window !== 'undefined') {
-        a = document.defaultView.clientInformation.languages
-        a = a.filter(i => i.length === 2)
-        a = a[a.length - 1]
-        Router.push({ pathname: `/${a}` })
-    } 
-    return (
-        <section>
-            <Homes data={data} /> 
-        </section>
-    )
+    return <Homes data={props?.data} />
 }
 
+export async function getStaticProps(ctx) {
+    let res = await import(`data/info.json`)
+    let data = res[ctx.locale || 'ar']
+    return { props: { data }, revalidate: 60 * 60 * 24 * 30, }
+}

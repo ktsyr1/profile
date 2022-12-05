@@ -12,7 +12,7 @@ function SEO(props) {
         <Head>
             <title>{title}</title>
             <meta name="google-site-verification" content="OR7y7vZTT8JAzL0w48XNuKtUSgT3Zvtja4M0LBt43zM" />
-            <meta charset="UTF-8" />
+            <meta charSet="UTF-8" />
             <meta name="theme-color" content="#1a8a7e" />
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
             <meta http-equiv="X-UA-Compatible" content="ie=edge" />

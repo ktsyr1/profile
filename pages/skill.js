@@ -3,9 +3,8 @@ import { useRouter } from "next/router"
 import { useState } from 'react'
 
 export default function Skills({ data, info }) {
-    let [des, setDes] = useState('')
-    const { query } = useRouter()
-    const lang = query.lang
+    const route = useRouter()
+    const lang = route.locale || 'ar'
     return (
         <div className='box col m-a ' dir={info[lang]?.direction}>
             <div className='box col ui '>
@@ -24,9 +23,10 @@ export default function Skills({ data, info }) {
     )
 }
 
-Skills.getInitialProps = async ({ query }) => {
-    let res = await import(`data/skills.json`)
+export async function getStaticProps(ctx) {
+
+    let { default: data } = await import(`data/skills.json`)
     // info
-    let info = await import(`data/info.json`)
-    return { data: res.default, info }
+    let { default: info } = await import(`data/info.json`)
+    return { props: { data, info }, revalidate: 60 * 60 * 24 * 30, }
 }
