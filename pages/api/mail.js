@@ -1,7 +1,4 @@
-const send = require('gmail-send')({
-    user: 'ktsyr1@gmail.com',
-    pass: 'vgimcrerasmxrybg',
-    to: 'ktsyr1@gmail.com',
+const send = require('gmail-send')({  
 })
 
 export default async function Search(req, res) {
