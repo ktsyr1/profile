@@ -59,6 +59,11 @@ nav
             text-align: center
 
 section
+    min-height: 400px
+    display: flex
+    flex-direction: column
+    justify-content: center
+
     #logo
         width: 150px
     h1
@@ -69,26 +74,24 @@ section
 
     .links
         display: flex
-        flex-wrap: wrap
-        justify-content: center
+        color: #1a8a7e
+        justify-content: space-around
+        align-items: center
+        width: 300px
+        flex-direction: column
+
         a
             display: flex
-            flex-direction: row
-            margin: 10px
-            box-shadow: 5px 5px 10px #ddd
-            background-color: #fff
-            border-radius: 10px
             color: #1a8a7e
-            padding: 0 10px
-            align-content: center
-            justify-content: center
+            direction: rtl
             align-items: center
-            width: 300px
-            text-align: start
             img, svg
                 width: 30px
-                margin: 10px
-
+                border-radius: 50%
+                height: 30px
+                padding: 10px
+                box-shadow: 5px 5px 10px #ddd
+                background-color: #fff
     a
         text-decoration: none
         // padding: 21px 10px
@@ -164,3 +167,10 @@ ul
     color: #fff
     border-radius: 10px
     font-size: small
+form
+    textarea ,input
+        padding: 10px
+        margin: 10px
+        border: 0
+        background-color: #eee
+        border-radius: 10px

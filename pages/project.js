@@ -1,10 +1,8 @@
 
-import { useRouter } from "next/router"
 
 export default function Home(props) {
-    let { data, info }=props
-    const route = useRouter()
-    const lang = route.locale || 'ar'
+    let { data, info, locale } = props
+    const lang = locale || 'ar'
     return (
         <div className='box grid center-col' dir={info[lang]?.direction}>
             {data?.map((project, i) => {
@@ -39,9 +37,8 @@ export default function Home(props) {
 }
 
 
-export async function getStaticProps(ctx) {
-
+export async function getStaticProps({ locale }) {
     let { default: data } = await import(`data/projects.json`)
     let { default: info } = await import(`data/info.json`)
-    return { props: { data, info }, revalidate: 60 * 60 * 24 * 30, }
+    return { props: { data, info, locale }, revalidate: 60 * 60 * 24 * 30, }
 } 

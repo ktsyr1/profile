@@ -1,5 +1,4 @@
 import React from 'react'
-const path = '../'
 class Sitemap extends React.Component {
     static async getInitialProps({ res }) {
         res.setHeader('Content-Type', 'text/xml')
@@ -9,10 +8,28 @@ class Sitemap extends React.Component {
                 <loc>https://ktsyr1.netlify.app</loc>
             </url>  
             <url>
-                <loc>https://ktsyr1.netlify.app/about</loc>
+                <loc>https://ktsyr1.netlify.app/project</loc>
+            </url>
+            <url>
+                <loc>https://ktsyr1.netlify.app/contact</loc>
+            </url>
+            <url>
+                <loc>https://ktsyr1.netlify.app/skill</loc>
+            </url>  
+            <url>
+                <loc>https://ktsyr1.netlify.app/en</loc>
+            </url>  
+            <url>
+                <loc>https://ktsyr1.netlify.app/en/project</loc>
+            </url>
+            <url>
+                <loc>https://ktsyr1.netlify.app/en/contact</loc>
+            </url>
+            <url>
+                <loc>https://ktsyr1.netlify.app/en/skill</loc>
             </url>  
         </urlset>`)
         res.end()
-      }
+    }
 }
 export default Sitemap

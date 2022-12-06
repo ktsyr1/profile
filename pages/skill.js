@@ -1,10 +1,5 @@
 
-import { useRouter } from "next/router"
-import { useState } from 'react'
-
-export default function Skills({ data, info }) {
-    const route = useRouter()
-    const lang = route.locale || 'ar'
+export default function Skills({ data, info, locale: lang }) {
     return (
         <div className='box col m-a ' dir={info[lang]?.direction}>
             <div className='box grid center-col center-text'>
@@ -19,14 +14,12 @@ export default function Skills({ data, info }) {
                 ))}
             </div>
         </div>
-
     )
 }
 
-export async function getStaticProps(ctx) {
+export async function getStaticProps({ locale }) {
 
     let { default: data } = await import(`data/skills.json`)
-    // info
     let { default: info } = await import(`data/info.json`)
-    return { props: { data, info }, revalidate: 60 * 60 * 24 * 30, }
+    return { props: { data, info, locale }, revalidate: 60 * 60 * 24 * 30, }
 }

@@ -8,20 +8,21 @@ export default function Lang(props) {
     let route = useRouter()
     let { query } = route
 
-    let Default = route.locale
+    let lang = route.locale
 
     let To
-    if (Default) To = Default === 'en' ? "ar" : "en"
+    if (lang) To = lang === 'en' ? "ar" : "en"
     else To = 'en'
     let path = route.asPath.slice(4)
 
-    let data = info[Default]
+    let data = info[lang]
+    let dir = info[lang]?.direction
     return (
         <nav className="box col center" >
 
             <div className="box space row w-full">
 
-                <Link href={'/'} locale={Default}>
+                <Link href={'/'} locale={lang}>
                     <a className=" box center" >
                         <img id='logo' src='/images/logo.png' alt={`logo ${data?.fullname}`} />
                     </a>
@@ -33,14 +34,16 @@ export default function Lang(props) {
                 </Link >
 
             </div>
-            <div className='box '>
-                <LinkButton type={path === "project" ? 'button' : 'link'} href={`/project`} locale={Default} class='btn m' >
+            <div className='box '
+                dir={dir}
+            >
+                <LinkButton type={path === "project" ? 'button' : 'link'} href={`/project`} locale={lang} class='btn m' >
                     {data?.project}
                 </LinkButton>
-                <LinkButton type={path === "skill" ? 'button' : 'link'} href={`/skill`} locale={Default} class='btn m' >
+                <LinkButton type={path === "skill" ? 'button' : 'link'} href={`/skill`} locale={lang} class='btn m' >
                     {data?.skill}
                 </LinkButton>
-                <LinkButton type={path === "contact" ? 'button' : 'link'} href={`/contact`} locale={Default} class='btn m' >
+                <LinkButton type={path === "contact" ? 'button' : 'link'} href={`/contact`} locale={lang} class='btn m' >
                     {data?.contact}
                 </LinkButton>
             </div>
