@@ -6,8 +6,8 @@ export default function LinkButton(app) {
     if (app.type === 'link') {
         return (
             <>
-                <Link href={app.href} locale={app.locale}>
-                    <a className={app.class}>{app.children}</a>
+                <Link href={app.href} locale={app.locale} className={app.class}>
+                    {app.children} 
                 </Link >
             </>
         )

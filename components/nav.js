@@ -22,15 +22,13 @@ export default function Lang(props) {
 
             <div className="box space row w-full">
 
-                <Link href={'/'} locale={lang}>
-                    <a className=" box center" >
-                        <img id='logo' src='/images/logo.png' alt={`logo ${data?.fullname}`} />
-                    </a>
+                <Link href={'/'} locale={lang} className=" box center" >
+                    <img id='logo' src='/images/logo.png' alt={`logo ${data?.fullname}`} />
                 </Link >
                 <h1 style={{ textAlign: 'center' }} > {data?.fullname}</h1>
 
-                <Link href={'/'} locale={To}>
-                    <a className="lang box center-full" > <img src={`/images/${To}.png`} alt={` ${To} lang`} /></a>
+                <Link href={'/'} locale={To} className="lang box center-full" >
+                    <img src={`/images/${To}.png`} alt={` ${To} lang`} />
                 </Link >
 
             </div>

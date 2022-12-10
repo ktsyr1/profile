@@ -1,15 +1,14 @@
-const withPWA = require("next-pwa")
 
 const runtimeCaching = require('next-pwa/cache')
+const withPWA = require("next-pwa")({
+    dest: "public",
+    register: true,
+    skipWaiting: true,
+    runtimeCaching,
+    buildExcludes: [/middleware-manifest.json$/],
+});
+
 module.exports = withPWA({
-    pwa: {
-        dest: "public",
-        register: true,
-        skipWaiting: true,
-        scope: '/',
-        runtimeCaching,
-        sw: 'sw.js'
-    },
     reactStrictMode: true,
     i18n: {
         // These are all the locales you want to support in
