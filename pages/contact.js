@@ -25,7 +25,7 @@ export default function Contact({ lang }) {
                         <p>ktsyr1@gmail.com</p>
                     </a>
                 </div>
-                <div className="box row ">
+                <div className="box row p m">
                     <a href="https://t.me/ktsyr1" >
                         <img src='/icon/telegram.svg' alt='icon telegram' />
                     </a>
