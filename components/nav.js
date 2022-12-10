@@ -10,10 +10,7 @@ export default function Lang(props) {
 
     let lang = route.locale
 
-    let To
-    if (lang) To = lang === 'en' ? "ar" : "en"
-    else To = 'en'
-    let path = route.asPath.slice(4)
+    let To = lang === 'en' ? "ar" : "en"
 
     let data = info[lang]
     let dir = info[lang]?.direction
@@ -35,13 +32,13 @@ export default function Lang(props) {
             <div className='box '
                 dir={dir}
             >
-                <LinkButton type={path === "project" ? 'button' : 'link'} href={`/project`} locale={lang} class='btn m' >
+                <LinkButton href={`/project`} className='btn m' >
                     {data?.project}
                 </LinkButton>
-                <LinkButton type={path === "skill" ? 'button' : 'link'} href={`/skill`} locale={lang} class='btn m' >
+                <LinkButton href={`/skill`} className='btn m' >
                     {data?.skill}
                 </LinkButton>
-                <LinkButton type={path === "contact" ? 'button' : 'link'} href={`/contact`} locale={lang} class='btn m' >
+                <LinkButton href={`/contact`} className='btn m' >
                     {data?.contact}
                 </LinkButton>
             </div>

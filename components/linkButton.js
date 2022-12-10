@@ -2,16 +2,15 @@
 import { useRouter } from "next/router"
 import Link from 'next/link'
 
-export default function LinkButton(app) {
-    if (app.type === 'link') {
+export default function LinkButton({ href, locale, className, children }) {
+    let route = useRouter()
+    if (route.pathname != href) {
         return (
-            <>
-                <Link href={app.href} locale={app.locale} className={app.class}>
-                    {app.children} 
-                </Link >
-            </>
+            <Link href={href} locale={route.locale} className={className}>
+                {children}
+            </Link >
         )
     } else {
-        return <button href={app.href}> {app.children} </button >
+        return <button > {children} </button >
     }
 }

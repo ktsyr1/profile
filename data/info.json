@@ -10,7 +10,7 @@
     "home": "الرئيسية",
     "project": "المشاريع",
     "skill": "المهارات",
-    "contact": "اتصل بي",
+    "contact": "تواصل معي",
     "MyServices": "خدماتي",
     "t1": "إنشاء واجهات المواقع التفاعلية و المتوافق مع احجام الشاشات بستخدام React ",
     "frontend": "تطوير واجهات الويب",
@@ -27,7 +27,10 @@
     "archive": "مؤرشف",
     "Specialties": "الاختصاصات",
     "lang_lib": "المكاتب واللغات",
-    "about": "مصمم ومبرمج تطبيقات ويب. وعلى دراية ب TypeScript , JavaScript , React . كما انني مهووس ب ريادة الاعمال و الافكار الابداعية و تجربة المستخدم "
+    "about": "مصمم ومبرمج تطبيقات ويب. وعلى دراية ب TypeScript , JavaScript , React . كما انني مهووس ب ريادة الاعمال و الافكار الابداعية و تجربة المستخدم ",
+    "OSP": "مشروع مفتوح المصدر",
+    "sendMsg": "ارسلي رسالة",
+    "send": "ارسال"
   },
   "en": {
     "lang": "en",
@@ -57,6 +60,9 @@
     "archive": "archived",
     "Specialties": "Specialties",
     "lang_lib": "Offices and languages",
-    "about": "Designer and programmer of web applications. I am familiar with TypeScript, JavaScript, and React. I am also obsessed with entrepreneurship, creative ideas, and user experience."
+    "about": "Designer and programmer of web applications. I am familiar with TypeScript, JavaScript, and React. I am also obsessed with entrepreneurship, creative ideas, and user experience.",
+    "OSP": "Open source project",
+    "sendMsg": "send massege",
+    "send": "send"
   }
 }
