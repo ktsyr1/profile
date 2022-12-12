@@ -2,6 +2,7 @@
 import Nav from 'components/nav'
 import info from 'data/info.json'
 import { useRouter } from 'next/router'
+import { GoMarkGithub } from "react-icons/go";
 export default function LayoutHome({ children }, { props }) {
     let route = useRouter()
     let lang = route.locale
@@ -15,7 +16,7 @@ export default function LayoutHome({ children }, { props }) {
             <footer dir={dir} style={{ display: 'flex', justifyContent: 'flex-end', margin: "10px" }} >
                 <a href="https://github.com/ktsyr1/profile" className="box ui center center-col ">
                     <p className='p'>{data.OSP}</p>
-                    <img src='/icon/github.svg' alt='icon github' width={30} />
+                    <GoMarkGithub />
                 </a>
             </footer>
         </>

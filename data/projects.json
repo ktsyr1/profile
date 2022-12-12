@@ -1,27 +1,38 @@
 [
   {
-    "url": "https://qotayba.top",
+    "url": "https://blog.udhlb.org",
     "year": 2022,
-    "type": ["web app"],
-
-    "tasks": ["backend", "frontend", "UX & UI", "Management"],
+    "type": [
+      "web app"
+    ],
+    "tasks": [
+      "backend",
+      "frontend",
+      "UX & UI"
+    ],
     "archive": false,
     "title": {
-      "en": "my this site",
-      "ar": "موقعي  هذا "
+      "en": "UDH",
+      "ar": "جمعية الاتحاد لتنمية الانسان"
     },
     "description": {
-      "ar": "الموقع الشخصي لقتيبة",
-      "en": "Personal website of Qotayba"
+      "ar": "موقع جمعية جمعية الاتحاد لتنمية الانسان",
+      "en": "  Union Society for Human Development website."
     },
-    "icon": "/images/logo.png"
+    "icon": "/images/udh.png"
   },
   {
     "url": "https://bidharat.vercel.app",
     "year": 2022,
-    "type": ["web app"],
-
-    "tasks": ["backend", "frontend", "UX & UI", "Management"],
+    "type": [
+      "web app"
+    ],
+    "tasks": [
+      "backend",
+      "frontend",
+      "UX & UI",
+      "Management"
+    ],
     "archive": false,
     "title": {
       "ar": "بذرة علاج",
@@ -36,8 +47,12 @@
   {
     "url": "https://play.google.com/store/apps/details?id=io.pekpay.app",
     "year": 2022,
-    "type": ["android"],
-    "tasks": ["backend"],
+    "type": [
+      "android"
+    ],
+    "tasks": [
+      "backend"
+    ],
     "archive": true,
     "title": {
       "ar": "بيك باي",
@@ -52,8 +67,15 @@
   {
     "url": "https://botqa.vercel.app",
     "year": 2021,
-    "type": ["web app"],
-    "tasks": ["backend", "frontend", "UX & UI", "Management"],
+    "type": [
+      "web app"
+    ],
+    "tasks": [
+      "backend",
+      "frontend",
+      "UX & UI",
+      "Management"
+    ],
     "archive": true,
     "title": {
       "ar": "بوتقة",
@@ -68,8 +90,15 @@
   {
     "url": "https://android.pesktop.com",
     "year": 2021,
-    "type": ["web app"],
-    "tasks": ["backend", "frontend", "UX & UI", "Management"],
+    "type": [
+      "web app"
+    ],
+    "tasks": [
+      "backend",
+      "frontend",
+      "UX & UI",
+      "Management"
+    ],
     "archive": true,
     "title": {
       "ar": "بيسكتوب اندرويد",
@@ -84,9 +113,15 @@
   {
     "url": "https://id-tb.netlify.app",
     "year": 2020,
-    "type": ["web app"],
-
-    "tasks": ["backend", "frontend", "UX & UI", "Management"],
+    "type": [
+      "web app"
+    ],
+    "tasks": [
+      "backend",
+      "frontend",
+      "UX & UI",
+      "Management"
+    ],
     "archive": true,
     "title": {
       "ar": "دليل المراكز الطبية",

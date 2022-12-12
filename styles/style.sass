@@ -32,6 +32,13 @@ nav
     background-color: #fff
     box-shadow: 5px 5px 10px #ddd
     margin-bottom: 10px
+    .menu a
+        background-color: #fff !important
+        color: var(--colorUIX) !important
+        padding: 10px !important
+        margin: 0 !important
+        box-shadow: none !important
+
     .lang
         button
             opacity: 0.3
@@ -46,7 +53,7 @@ nav
 
     #logo
         width: 40px
-        margin: -7px
+        margin: 10px
     a
         text-decoration: none
         color: #1a8a7e
@@ -79,14 +86,26 @@ section
         align-items: center
         width: 300px
         flex-direction: column
-
         a
             display: flex
             color: #1a8a7e
             align-items: center
             img, svg
                 width: 30px
-                border-radius: 50%
+                border-radius: 10px
+                height: 30px
+                padding: 10px
+                box-shadow: 5px 5px 10px #ddd
+                background-color: #fff
+            p
+                padding: 10px
+        .list a
+            display: flex
+            color: #1a8a7e
+            align-items: center
+            img, svg
+                width: 30px
+                // border-radius: 50%
                 height: 30px
                 padding: 10px
                 box-shadow: 5px 5px 10px #ddd
@@ -162,7 +181,13 @@ ul
     background-color: #eee
     border-radius: 10px
     font-size: small
-.archive
+    svg
+        margin: 10px
+        font-size: small
+        width: 25px
+        height: auto
+.archive 
+    margin: 0 5px
     padding: 10px
     background-color: #f7656f
     color: #fff

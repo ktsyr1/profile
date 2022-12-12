@@ -11,6 +11,6 @@ export default function LinkButton({ href, locale, className, children }) {
             </Link >
         )
     } else {
-        return <button > {children} </button >
+        return <button className="btn" > {children} </button >
     }
 }

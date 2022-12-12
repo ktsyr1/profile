@@ -7,11 +7,6 @@ const withPWA = require("next-pwa")({
     runtimeCaching,
     buildExcludes: [/middleware-manifest.json$/],
 });
-export const config = {
-    api: {
-        bodyParser: false,
-    },
-}
 module.exports = withPWA({
     reactStrictMode: true,
     i18n: {

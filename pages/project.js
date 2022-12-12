@@ -1,8 +1,20 @@
-
+import { SiAdobexd } from "react-icons/si"
+import { CgBot } from "react-icons/cg"
+import { MdManageAccounts } from "react-icons/md"
+import { RiPagesFill } from "react-icons/ri"
+import { CiServer } from "react-icons/ci"
+import { RiExternalLinkLine } from "react-icons/ri"
 
 export default function Home(props) {
     let { data, info, locale } = props
     const lang = locale || 'ar'
+    let crerr = [
+        { name: 'UX & UI', Icon: <SiAdobexd /> },
+        { name: 'frontend', Icon: <RiPagesFill /> },
+        { name: 'backend', Icon: <CiServer /> },
+        { name: 'Web automation', Icon: <CgBot /> },
+        { name: 'Management', Icon: <MdManageAccounts /> }
+    ]
     return (
         <div className='box grid center-col' dir={info[lang]?.direction}>
             {data?.map((project, i) => {
@@ -14,19 +26,38 @@ export default function Home(props) {
                             <div className='box col start space  w-full'>
                                 <div className='box col R'>
                                     <b>{title[lang]}</b>
-                                    <span>{year}</span>
+                                    <span className="box row space">
+
+                                        {year}
+                                        {/* {archive ? <p className='archive' > {info[lang]?.archive}</p> : <div />} */}
+                                    </span>
                                 </div>
 
                             </div>
                         </div>
-                        <div className='box grid center  '>
-                            {tasks.map((task, i) => (<p className={'task'} key={i}> {task}</p>))}
+                        <div className='box grid space center task '>
+                            <div className='box grid center  '>
+                                {tasks.map((task, i) => {
+                                    if (task === 'UX & UI') return <SiAdobexd key={i} />
+                                    if (task === 'frontend') return <RiPagesFill key={i} />
+                                    if (task === 'backend') return <CiServer key={i} />
+                                    if (task === 'Web automation') return <CgBot key={i} />
+                                    if (task === 'Management') return <MdManageAccounts key={i} />
+                                    else return <></>
+
+                                })}
+                            </div>
+                            {/* <a href={url} className=' box'>
+                                <RiExternalLinkLine dir={info[lang]?.direction} />
+                            </a> */}
                         </div>
                         <div className='box row space center w-full'>
-                            {archive
-                                ? <p className='archive' > {info[lang]?.archive}</p>
-                                : <div />}
-                            <a href={url} className='btn '> {info[lang].view} </a>
+                            {archive ? <p className='archive' > {info[lang]?.archive}</p> : <div />}
+
+                            <a href={url} className='btn center box'>
+                                {info[lang].view}
+                                <RiExternalLinkLine dir={info[lang]?.direction} />
+                            </a>
 
                         </div>
                     </div >
