@@ -17,31 +17,31 @@ export default function Lang(props) {
     return (
         <nav className="box col center" >
 
-            <div className="box space row w-full" style={{ alignItems: 'flex-start' }}>
+            <div className="box space row w-full center" dir={dir} >
 
-                <Link href={'/'} locale={lang} className=" box center" >
+                <Link href={'/'} locale={lang} className=" box center" style={{ fontSize: 'small', textAlign: 'start' }}>
                     <img id='logo' src='/images/logo.png' alt={`logo ${data?.fullname}`} />
-                </Link >
-                <div className="box center-full menu grid">
                     <h1 style={{ textAlign: 'center' }} > {data?.fullname}</h1>
-                    <div className='box' dir={dir} >
-                        <LinkButton href={`/project`} className='btn' >
-                            {data?.project}
-                        </LinkButton>
-                        <LinkButton href={`/skill`} className='btn' >
-                            {data?.skill}
-                        </LinkButton>
-                        <LinkButton href={`/contact`} className='btn' >
-                            {data?.contact}
-                        </LinkButton>
-                    </div>
-                </div>
-                <Link href={'/'} locale={To} className="lang box center-full" >
-                    <img src={`/images/${To}.png`} alt={` ${To} lang`} />
                 </Link >
+                <div className="box center-full grid">
+                    <Link href={'/'} locale={To} className="lang box center-full" >
+                        <img src={`/images/${To}.png`} alt={` ${To} lang`} />
+                    </Link >
 
+                </div>
             </div>
 
+            <div className='box menu' dir={dir} style={{ fontSize: 'small' }} >
+                <LinkButton href={`/project`} className='btn m' >
+                    {data?.project}
+                </LinkButton>
+                <LinkButton href={`/skill`} className='btn m' >
+                    {data?.skill}
+                </LinkButton>
+                <LinkButton href={`/contact`} className='btn m' >
+                    {data?.contact}
+                </LinkButton>
+            </div>
         </nav >
     )
 }
