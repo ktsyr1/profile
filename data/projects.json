@@ -1,4 +1,26 @@
 [
+{
+    "url": "https://sham-spi.com",
+    "year": 2023,
+    "type": [
+      "web app"
+    ],
+    "tasks": [
+      "backend",
+      "frontend",
+      "UX & UI"
+    ],
+    "archive": false,
+    "title": {
+      "en": "sham spi",
+      "ar": "شركة شام للصناعات الدوائية"
+    },
+    "description": {
+      "ar": "موقع شركة شام للصناعات الدوائية ",
+      "en": "Cham Pharmaceutical Industries website"
+    },
+    "icon": "/images/sham-spi.png"
+  },
   {
     "url": "https://blog.udhlb.org",
     "year": 2022,
