@@ -13,7 +13,7 @@ export default function Home(props) {
                     <p className="task" style={{ textAlgin: 'start' }}>{about}</p>
                 </div>
             </div>
-            <iframe width="100%" height="300px" src="https://www.youtube.com/embed/WEAKF7PyypI" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" loading="lazy"  ></iframe>
+           {/*  <iframe width="100%" height="300px" src="https://www.youtube.com/embed/WEAKF7PyypI" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" loading="lazy"  ></iframe> */}
         </div>
     )
 }
