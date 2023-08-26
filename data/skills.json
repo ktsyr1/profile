@@ -16,7 +16,9 @@
       "React.js",
       "Next.js",
       "SPA (Single Page Application)",
-      "PWA"
+      "PWA",
+      "Ant Design",
+      
     ]
   },
   {
@@ -33,7 +35,9 @@
       "MongoDB",
       "Mongoose",
       "Ubuntu",
-      "Github"
+      "Github",
+      "Git",
+      "Vercel"
     ]
   },
   {
