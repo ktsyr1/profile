@@ -17,7 +17,9 @@
             "Next.js",
             "SPA (Single Page Application)",
             "PWA",
-            "Ant Design"
+            "Ant Design",
+            "Firebase",
+            "Mantine"
         ]
     },
     {
@@ -36,7 +38,10 @@
             "Ubuntu",
             "Github",
             "Git",
-            "Vercel"
+            "Vercel",
+            "Netlify",
+            "Digital ocean",
+            "Docker"
         ]
     },
     {
