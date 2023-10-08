@@ -20,6 +20,7 @@ export default function Skills({ data, info, locale: lang }) {
 export async function getStaticProps({ locale }) {
 
     let { default: data } = await import(`data/skills.json`)
+    console.log(data)
     let { default: info } = await import(`data/info.json`)
     return { props: { data, info, locale }, revalidate: 60 * 60 * 24 * 30, }
 }
