@@ -1,7 +1,27 @@
-[
+[{
+    "url": "https://scrapis.netlify.app",
+    "year": "2023/1",
+    "type": [
+      "web app"
+    ],
+    "tasks": [ 
+      "frontend",
+      "UX & UI"
+    ],
+    "archive": false,
+    "title": {
+      "en": "scrapis",
+      "ar": "scrapis"
+    },
+    "description": {
+      "ar": "مدونة scrapis متخصصة في برمجة الويب",
+      "en": "Scrapis blog specializes in web programming"
+    },
+    "icon": "/images/scrapis.png"
+  },
 {
     "url": "https://sham-spi.com",
-    "year": 2023,
+    "year": "2023/4",
     "type": [
       "web app"
     ],
@@ -23,7 +43,7 @@
   },
   {
     "url": "https://blog.udhlb.org",
-    "year": 2022,
+    "year": "2022/11",
     "type": [
       "web app"
     ],
@@ -45,7 +65,7 @@
   },
   {
     "url": "https://bidharat.vercel.app",
-    "year": 2022,
+    "year": "2022/1",
     "type": [
       "web app"
     ],
