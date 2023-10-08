@@ -41,7 +41,9 @@
             "Vercel",
             "Netlify",
             "Digital ocean",
-            "Docker"
+            "Docker",
+            "MySQL",
+            "PHP"
         ]
     },
     {
