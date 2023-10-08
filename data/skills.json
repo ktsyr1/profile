@@ -1,59 +1,67 @@
 [
-  {
-    "title": "Frontend",
-    "description": {
-      "ar": "تصميم و برمجة واجهات مواقع الويب ",
-      "en": "Website design and programming"
+    {
+        "title": "Frontend",
+        "description": {
+            "ar": "تصميم و برمجة واجهات مواقع الويب ",
+            "en": "Website design and programming"
+        },
+        "key": [
+            "HTML5",
+            "CSS3",
+            "Bootstrap",
+            "Material UI",
+            "Tailwind CSS",
+            "Sass",
+            "JavaScript",
+            "React.js",
+            "Next.js",
+            "SPA (Single Page Application)",
+            "PWA",
+            "Ant Design"
+        ]
     },
-    "key": [
-      "HTML5",
-      "CSS3",
-      "Bootstrap",
-      "Material UI",
-      "Tailwind CSS",
-      "Sass",
-      "JavaScript",
-      "React.js",
-      "Next.js",
-      "SPA (Single Page Application)",
-      "PWA",
-      "Ant Design",
-      
-    ]
-  },
-  {
-    "title": "Back-end",
-    "description": {
-      "ar": "برمجة السيرفرات باستخدام nodejs & apis",
-      "en": "Programming servers using nodejs & apis"
+    {
+        "title": "Back-end",
+        "description": {
+            "ar": "برمجة السيرفرات باستخدام nodejs & apis",
+            "en": "Programming servers using nodejs & apis"
+        },
+        "key": [
+            "Node.js",
+            "TypeScript",
+            "Express.js",
+            "RESTful API",
+            "MongoDB",
+            "Mongoose",
+            "Ubuntu",
+            "Github",
+            "Git",
+            "Vercel"
+        ]
     },
-    "key": [
-      "Node.js",
-      "TypeScript",
-      "Express.js",
-      "RESTful API",
-      "MongoDB",
-      "Mongoose",
-      "Ubuntu",
-      "Github",
-      "Git",
-      "Vercel"
-    ]
-  },
-  {
-    "title": "Web automation",
-    "description": {
-      "ar": "تجريف صفحات الويب و أَتْمَتَةٌ الاعمال",
-      "en": "Web scraping and business automation"
+    {
+        "title": "Web automation",
+        "description": {
+            "ar": "تجريف صفحات الويب و أَتْمَتَةٌ الاعمال",
+            "en": "Web scraping and business automation"
+        },
+        "key": [
+            "Web Scraping",
+            "axios",
+            "jsdom",
+            "puppeteer"
+        ]
     },
-    "key": ["Web Scraping", "axios", "jsdom", "puppeteer"]
-  },
-  {
-    "title": "UI / UX",
-    "description": {
-      "en": "Designing user experience and user interfaces and improving the usability of websites ",
-      "ar": "تصميم تجربة المستخدم و واجهات الاستخدام و تحسين سهولة استخدام المواقع "
-    },
-    "key": ["Adobe XD", "UI / UX", "Research UX"]
-  }
+    {
+        "title": "UI / UX",
+        "description": {
+            "en": "Designing user experience and user interfaces and improving the usability of websites ",
+            "ar": "تصميم تجربة المستخدم و واجهات الاستخدام و تحسين سهولة استخدام المواقع "
+        },
+        "key": [
+            "Adobe XD",
+            "UI / UX",
+            "Research UX"
+        ]
+    }
 ]
