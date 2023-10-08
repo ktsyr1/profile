@@ -55,7 +55,7 @@ export default function Home(props) {
                         <div className='box row space center w-full'>
                             {archive ? <p className='archive' > {info[lang]?.archive}</p> : <div />}
 
-                            <a href={url} className='btn center row box' style={{fontSize: 'large'}}>
+                            <a href={url} className='btn center row box m' style={{fontSize: 'large'}}>
                               <p style={{marginLeft: '10px'}}>  {info[lang].view} </p>
                                 <RiExternalLinkLine dir={info[lang]?.direction} />
                             </a>
