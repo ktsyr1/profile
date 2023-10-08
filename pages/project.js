@@ -19,7 +19,8 @@ export default function Home(props) {
         <div className='box grid center-col' dir={info[lang]?.direction}>
             {data?.map((project, i) => {
                 let { url, title, description, year, icon, tasks, archive } = project
-                return (
+                if(archive) {
+                    return (
                     <div className={' box col w-300 ui m space '} dir={info[lang]?.direction} key={i}>
                         <div className=' box row center' >
                             <img width={100} height={100} src={icon} alt={title[lang] + ' logo'} />
@@ -62,6 +63,7 @@ export default function Home(props) {
                         </div>
                     </div >
                 )
+}else return<></>
             })}
         </div >
     )
