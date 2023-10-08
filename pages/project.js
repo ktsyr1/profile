@@ -26,7 +26,7 @@ export default function Home(props) {
                             <img width={100} height={100} src={icon} alt={title[lang] + ' logo'} />
                             <div className='box col start space  w-full'>
                                 <div className='box col R'>
-                                    <b>{title[lang]}</b>
+                                    <b style={{fontSize: 'large'}}>{title[lang]}</b>
                                     <span className="box row space">
 
                                         {year}
@@ -55,8 +55,8 @@ export default function Home(props) {
                         <div className='box row space center w-full'>
                             {archive ? <p className='archive' > {info[lang]?.archive}</p> : <div />}
 
-                            <a href={url} className='btn center box'>
-                                {info[lang].view}
+                            <a href={url} className='btn center row box' style={{fontSize: 'large'}}>
+                              <p style={{marginLeft: '10px'}}>  {info[lang].view} </p>
                                 <RiExternalLinkLine dir={info[lang]?.direction} />
                             </a>
 
