@@ -1,4 +1,26 @@
-[{
+[
+{
+    "url": "https://nextjsvip.netlify.app",
+    "year": 2023,
+    "type": [
+      "website"
+    ],
+    "tasks": [
+      "code",
+      "frontend",
+      "UX & UI"
+    ],
+    "archive": false,
+    "title": {
+      "en": "nextjs-vip",
+      "ar": "nextjs-vip"
+    },
+    "description": {
+      "ar": "مكتبة برمجية لمساعدة مطوري nextjs",
+      "en": "A programming library to help nextjs developers"
+    },
+    "icon": "/images/nextjs-vip.svg"
+  },{
     "url": "https://scrapis.netlify.app",
     "year": "2023/1",
     "type": [
