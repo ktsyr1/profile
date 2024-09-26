@@ -30,7 +30,30 @@ export default function Lang(props) {
 
                 </div>
             </div>
- 
+
+            <div className='box menu' dir={dir} style={{ fontSize: 'small' }} >
+                <LinkButton href={`/project`} className='btn m' style={{
+                    display: 'flex',
+                    alignItems: 'center',
+                    height: '50px'
+                }} >
+                    {data?.project}
+                </LinkButton>
+                <LinkButton href={`/skill`} className='btn m' style={{
+                    display: 'flex',
+                    alignItems: 'center',
+                    height: '30px'
+                }}>
+                    {data?.skill}
+                </LinkButton>
+                <LinkButton href={`/contact`} className='btn m' style={{
+                    display: 'flex',
+                    alignItems: 'center',
+                    height: '30px'
+                }}>
+                    {data?.contact}
+                </LinkButton>
+            </div>
         </nav >
     )
 }

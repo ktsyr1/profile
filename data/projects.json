@@ -1,5 +1,69 @@
 [
-{
+  {
+    "url": "https://dolean.vercel.app",
+    "year": 2024,
+    "type": [
+      "web app"
+    ],
+    "tasks": [
+      "backend",
+      "frontend",
+      "UX & UI"
+    ],
+    "archive": false,
+    "title": {
+      "en": "dolean",
+      "ar": "دولني"
+    },
+    "description": {
+      "ar": "منصة لتقديم الدورات للطلاب. نقوم بالبحث عن الدورات التي يطلبها الطلاب بين جميع الدورات المتاحة في لبنان",
+      "en": "A platform to provide courses for students. We search for courses they request among all the courses launched in Lebanon"
+    },
+    "icon": "/images/dolean-icon.png"
+  },
+  {
+    "url": "https://inspectex.sa",
+    "year": 2024,
+    "type": [
+      "web app"
+    ],
+    "tasks": [
+      "frontend"
+    ],
+    "archive": false,
+    "title": {
+      "en": "inspectex",
+      "ar": " إنسبكتكس "
+    },
+    "description": {
+      "ar": "قمت بتطوير منصة خدمات تفتيش المباني باستخدام Next.js وTailwind CSS. دمجت واجهة برمجة تطبيقات WordPress GraphQL وأعددت بوابات الدفع، وقمت بتحسين أداء التطبيق.",
+      "en": "Developed a inspectex using Next.js and Tailwind CSS. Integrated WordPress GraphQL API and implemented payment gateways, optimizing application performance."
+    },
+    "icon": "/images/inspectex-icon.jpg"
+  },
+  {
+    "url": "https://app.alamalmoubdien.com",
+    "year": 2023,
+    "type": [
+      "web app"
+    ],
+    "tasks": [
+      "backend",
+      "frontend",
+      "UX & UI"
+    ],
+    "archive": false,
+    "title": {
+      "en": "Alam Almoubdien",
+      "ar": "عالم المبدعين"
+    },
+    "description": {
+      "ar": "نظام إدارة تعليمية باستخدام تقنية MERN مع دعم PWA وTWA.",
+      "en": "Built an educational management system using MERN stack with PWA and TWA support."
+    },
+    "icon": "https://app.alamalmoubdien.com/_next/image?url=%2Fimages%2Flogo.png&w=128&q=75"
+  },
+  {
     "url": "https://nextjsvip.netlify.app",
     "year": 2023,
     "type": [
@@ -19,14 +83,15 @@
       "ar": "مكتبة برمجية لمساعدة مطوري nextjs",
       "en": "A programming library to help nextjs developers"
     },
-    "icon": "/images/nextjs-vip.svg"
-  },{
+    "icon": "https://nextjsvip.netlify.app/img/logo.svg"
+  },
+  {
     "url": "https://scrapis.netlify.app",
     "year": "2023/1",
     "type": [
       "web app"
     ],
-    "tasks": [ 
+    "tasks": [
       "frontend",
       "UX & UI"
     ],
@@ -41,7 +106,7 @@
     },
     "icon": "/images/scrapis.png"
   },
-{
+  {
     "url": "https://sham-spi.com",
     "year": "2023/4",
     "type": [

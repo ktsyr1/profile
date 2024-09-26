@@ -19,51 +19,51 @@ export default function Home(props) {
         <div className='box grid center-col' dir={info[lang]?.direction}>
             {data?.map((project, i) => {
                 let { url, title, description, year, icon, tasks, archive } = project
-                if(!archive) {
+                if (!archive) {
                     return (
-                    <div className={' box col w-300 ui m space '} dir={info[lang]?.direction} key={i}>
-                        <div className=' box row center' >
-                            <img width={100} height={100} src={icon} alt={title[lang] + ' logo'} />
-                            <div className='box col start space  w-full'>
-                                <div className='box col R'>
-                                    <b style={{fontSize: 'large'}}>{title[lang]}</b>
-                                    <span className="box row space">
+                        <div className={' box col w-300 ui m space '} dir={info[lang]?.direction} key={i}>
+                            <div className=' box row center' >
+                                <img width={70} height={70} src={icon} alt={title[lang] + ' logo'} style={{ height: 'auto', padding: '10px' }} />
+                                <div className='box col start space  w-full'>
+                                    <div className='box col R'>
+                                        <b style={{ fontSize: 'large' }}>{title[lang]}</b>
+                                        <span className="box row space">
 
-                                        {year}
-                                        {/* {archive ? <p className='archive' > {info[lang]?.archive}</p> : <div />} */}
-                                    </span>
+                                            {year}
+                                            {/* {archive ? <p className='archive' > {info[lang]?.archive}</p> : <div />} */}
+                                        </span>
+                                    </div>
+
                                 </div>
-
                             </div>
-                        </div>
-                        <div className='box grid space center task '>
-                            <div className='box grid center  '>
-                                {tasks.map((task, i) => {
-                                    if (task === 'UX & UI') return <SiAdobexd key={i} />
-                                    if (task === 'frontend') return <RiPagesFill key={i} />
-                                    if (task === 'backend') return <CiServer key={i} />
-                                    if (task === 'Web automation') return <CgBot key={i} />
-                                    if (task === 'Management') return <MdManageAccounts key={i} />
-                                    else return <></>
+                            <div className='box grid space center task '>
+                                <div className='box grid center  '>
+                                    {tasks.map((task, i) => {
+                                        if (task === 'UX & UI') return <SiAdobexd key={i} />
+                                        if (task === 'frontend') return <RiPagesFill key={i} />
+                                        if (task === 'backend') return <CiServer key={i} />
+                                        if (task === 'Web automation') return <CgBot key={i} />
+                                        if (task === 'Management') return <MdManageAccounts key={i} />
+                                        else return <></>
 
-                                })}
-                            </div>
-                            {/* <a href={url} className=' box'>
+                                    })}
+                                </div>
+                                {/* <a href={url} className=' box'>
                                 <RiExternalLinkLine dir={info[lang]?.direction} />
                             </a> */}
-                        </div>
-                        <div className='box row space center w-full'>
-                            {archive ? <p className='archive' > {info[lang]?.archive}</p> : <div />}
+                            </div>
+                            <div className='box row space center w-full'>
+                                {archive ? <p className='archive' > {info[lang]?.archive}</p> : <div />}
 
-                            <a href={url} className='btn center row box m' style={{fontSize: 'large'}}>
-                              <p style={{marginLeft: '10px'}}>  {info[lang].view} </p>
-                                <RiExternalLinkLine dir={info[lang]?.direction} />
-                            </a>
+                                <a href={url} className='btn center row box m' style={{ fontSize: 'large' }}>
+                                    <p style={{ marginLeft: '10px' }}>  {info[lang].view} </p>
+                                    <RiExternalLinkLine dir={info[lang]?.direction} />
+                                </a>
 
-                        </div>
-                    </div >
-                )
-}else return<></>
+                            </div>
+                        </div >
+                    )
+                } else return <></>
             })}
         </div >
     )

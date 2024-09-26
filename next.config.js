@@ -12,7 +12,5 @@ module.exports = withPWA({
     i18n: {
         locales: ['en', 'ar'],
         defaultLocale: 'ar'
-    },
-      basePath: '/github-pages',
-
+    }
 })

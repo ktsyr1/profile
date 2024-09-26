@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }) {
     <Layout >
       <Head>
         <title>Qotayba Mohammad - قتيبة محمد </title>
-        <meta charset="UTF-8" />
+        <meta charSet="UTF-8" />
         <meta name="theme-color" content="#fff" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
