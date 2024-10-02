@@ -27,7 +27,7 @@ export default function Home(props) {
                                 <div className='box col start space  w-full'>
                                     <div className='box col R'>
                                         <b style={{ fontSize: 'large' }}>{title[lang]}</b>
-                                        <span className="box row space">
+                                        <span className="box row space" style={{ margin: '0 10px' }}>
 
                                             {year}
                                             {/* {archive ? <p className='archive' > {info[lang]?.archive}</p> : <div />} */}
@@ -39,7 +39,7 @@ export default function Home(props) {
                             <div className='box grid space center task '>
                                 <div className='box grid center  '>
                                     {tasks.map((task, i) => {
-                                        if (task === 'UX & UI') return <SiAdobexd key={i} />
+                                        if (task === 'UX & UI') return <SiAdobexd key={i} aria-label="Adobe XD" />
                                         if (task === 'frontend') return <RiPagesFill key={i} />
                                         if (task === 'backend') return <CiServer key={i} />
                                         if (task === 'Web automation') return <CgBot key={i} />
@@ -48,11 +48,11 @@ export default function Home(props) {
 
                                     })}
                                 </div>
-                                {/* <a href={url} className=' box'>
+                                <a href={url} className=' box'>
                                 <RiExternalLinkLine dir={info[lang]?.direction} />
-                            </a> */}
+                            </a>
                             </div>
-                            <div className='box row space center w-full'>
+                            {/* <div className='box row space center w-full'>
                                 {archive ? <p className='archive' > {info[lang]?.archive}</p> : <div />}
 
                                 <a href={url} className='btn center row box m' style={{ fontSize: 'large' }}>
@@ -60,7 +60,7 @@ export default function Home(props) {
                                     <RiExternalLinkLine dir={info[lang]?.direction} />
                                 </a>
 
-                            </div>
+                            </div> */}
                         </div >
                     )
                 } else return <></>

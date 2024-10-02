@@ -1,6 +1,8 @@
 import Layout from '../components/layout'
 import '../styles/style.sass'
 import '../styles/theme.sass'
+import '../styles/rest.css'
+
 import Head from 'next/head'
 
 import Router from 'next/router';
@@ -26,7 +28,7 @@ function MyApp({ Component, pageProps }) {
         <meta property="fb:title" content=" Qotayba Mohammad" />
         <meta property="twitter:title" content="Qotayba Mohammad" />
         <meta name="Description" content="الموقع الشخصي لقتيبة محمد" />
-        <meta name="Keywords" content="قتيبة محمد, موقع قتيبة محمد , Qotayba Mohammad , Qotayba Mohammad website" /> 
+        <meta name="Keywords" content="قتيبة محمد, موقع قتيبة محمد , Qotayba Mohammad , Qotayba Mohammad website" />
         <link rel="canonical" href="https://ktsyr1.netlify.app" />
         <link rel="manifest" href="/manifest.json" />
         <link rel="apple-touch-icon" href="#" />
